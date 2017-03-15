@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12321, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Gradients
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: 
+    m_Gradient:
+      key0:
+        serializedVersion: 2
+        rgba: 4286724652
+      key1:
+        serializedVersion: 2
+        rgba: 4286468433
+      key2:
+        serializedVersion: 2
+        rgba: 7322100
+      key3:
+        serializedVersion: 2
+        rgba: 11921662
+      key4:
+        serializedVersion: 2
+        rgba: 7322100
+      key5:
+        serializedVersion: 2
+        rgba: 8278867
+      key6:
+        serializedVersion: 2
+        rgba: 8534572
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 12143
+      ctime2: 16384
+      ctime3: 32768
+      ctime4: 59637
+      ctime5: 62451
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 7
+      m_NumAlphaKeys: 2
+  - m_Name: 
+    m_Gradient:
+      key0:
+        serializedVersion: 2
+        rgba: 4286724652
+      key1:
+        serializedVersion: 2
+        rgba: 4286596414
+      key2:
+        serializedVersion: 2
+        rgba: 7322100
+      key3:
+        serializedVersion: 2
+        rgba: 11921662
+      key4:
+        serializedVersion: 2
+        rgba: 7322100
+      key5:
+        serializedVersion: 2
+        rgba: 8342600
+      key6:
+        serializedVersion: 2
+        rgba: 8534572
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 20046
+      ctime2: 24576
+      ctime3: 32768
+      ctime4: 49151
+      ctime5: 53392
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 7
+      m_NumAlphaKeys: 2

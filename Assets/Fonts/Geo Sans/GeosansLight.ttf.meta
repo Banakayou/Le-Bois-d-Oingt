@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a9789c7d3c7e73a47907742bae05c9b4
+timeCreated: 1481021199
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 20
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GeosansLight
+  fontNames:
+  - GeosansLight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 60fecfc2bb0da0c4c80914f0877a55e1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
