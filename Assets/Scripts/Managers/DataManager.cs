@@ -20,7 +20,7 @@ public class DataManager : MonoBehaviour
     [HideInInspector] public GameObject PietonModeButton;
     [HideInInspector] public GameObject VeilleModeButton;
 	[HideInInspector] public GameObject MesureModeButton;
-    [HideInInspector] public GameObject ConstructionModeButton;
+    //[HideInInspector] public GameObject ConstructionModeButton;
     [HideInInspector] public GameObject SunButton;
     
 	private static DataManager _instance;
@@ -69,7 +69,7 @@ public class DataManager : MonoBehaviour
 		PietonModeButton = GameObject.Find("Pieton_Mode_Button");
 		VeilleModeButton = GameObject.Find("Veille_Mode_Button");
 		MesureModeButton = GameObject.Find ("Mesure_Mode_Button");
-        ConstructionModeButton = GameObject.Find("Construction_Mode_Button");
+        //ConstructionModeButton = GameObject.Find("Construction_Mode_Button");
         SunButton = GameObject.Find ("Sun_Button");
 
 		setMode(MODE_COURANT);
@@ -112,7 +112,7 @@ public class DataManager : MonoBehaviour
 			    VeilleModeButton.GetComponent<Button> ().interactable = true;
 			    MesureModeButton.SetActive(false);
                 //
-                ConstructionModeButton.SetActive(false);
+                //ConstructionModeButton.SetActive(false);
                 //
                 SunButton.SetActive (true);
 
@@ -129,7 +129,7 @@ public class DataManager : MonoBehaviour
 		        PietonModeButton.GetComponent<Button> ().interactable = true;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
 		        MesureModeButton.SetActive (true);
-                ConstructionModeButton.SetActive(false);
+                //ConstructionModeButton.SetActive(false);
                 SunButton.SetActive (true);
 
                 Camera_veille.SetActive(false);
@@ -145,7 +145,7 @@ public class DataManager : MonoBehaviour
 		        PietonModeButton.GetComponent<Button> ().interactable = false;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
 		        MesureModeButton.SetActive(false);
-                ConstructionModeButton.SetActive(false);
+                //ConstructionModeButton.SetActive(false);
 		        SunButton.SetActive(true);
 
                 Camera_veille.SetActive(false);
@@ -163,7 +163,7 @@ public class DataManager : MonoBehaviour
                 PietonModeButton.GetComponent<Button>().interactable = true;
                 VeilleModeButton.GetComponent<Button>().interactable = false;
 		        MesureModeButton.SetActive(false);
-                ConstructionModeButton.SetActive(false);
+                //ConstructionModeButton.SetActive(false);
 		        SunButton.SetActive(false);
 
                 Camera_veille.SetActive(true);

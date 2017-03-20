@@ -63,7 +63,7 @@ public class ClickToWalk : MonoBehaviour {
 
 	void Update () {
         //Click to walk
-        if (DataManager.instance.MODE_COURANT == DataManager.MODE_PIETON || DataManager.instance.MODE_COURANT == DataManager.MODE_PLAN)
+		if (DataManager.instance.MODE_COURANT == DataManager.MODE_PIETON || DataManager.instance.MODE_COURANT == DataManager.MODE_PLAN || DataManager.instance.MODE_COURANT == DataManager.MODE_ORBITAL)
         {
             if (Input.GetAxis("Mouse X") > 0.4f || Input.GetAxis("Mouse X") < -0.4f || Input.GetAxis("Mouse Y") > 0.4f || Input.GetAxis("Mouse Y") < -0.4f || EventSystem.current.IsPointerOverGameObject() == true)
             {
