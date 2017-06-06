@@ -92,10 +92,6 @@ public class DataManager : MonoBehaviour
         {
             UIManager.instance.ToggleSunSlider();
         }
-        if (UIManager.instance.statusMinimap == true)
-        {
-            UIManager.instance.animMinimap.Stop();
-        }
         UIManager.instance.minimap.SetActive(false);
         if (Camera_plan.GetComponent<ModeMesure>().mode_mesure == true)
         {

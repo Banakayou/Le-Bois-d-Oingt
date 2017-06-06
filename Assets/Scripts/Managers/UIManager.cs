@@ -149,7 +149,6 @@ public class UIManager : MonoBehaviour {
     public void ToggleCredits(bool active)
     {         
         animCredits.enabled = true;
-		animCredits.Stop();
         if (active == true && statusCredits == false)
         {
             HideHUD();
