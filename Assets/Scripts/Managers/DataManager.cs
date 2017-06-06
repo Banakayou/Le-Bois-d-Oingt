@@ -19,7 +19,6 @@ public class DataManager : MonoBehaviour
     [HideInInspector] public GameObject OrbitalModeButton;
     [HideInInspector] public GameObject PietonModeButton;
     [HideInInspector] public GameObject VeilleModeButton;
-	[HideInInspector] public GameObject MesureModeButton;
     //[HideInInspector] public GameObject ConstructionModeButton;
     [HideInInspector] public GameObject SunButton;
     
@@ -68,7 +67,6 @@ public class DataManager : MonoBehaviour
 		OrbitalModeButton = GameObject.Find("Orbital_Mode_Button");
 		PietonModeButton = GameObject.Find("Pieton_Mode_Button");
 		VeilleModeButton = GameObject.Find("Veille_Mode_Button");
-		MesureModeButton = GameObject.Find ("Mesure_Mode_Button");
         //ConstructionModeButton = GameObject.Find("Construction_Mode_Button");
         SunButton = GameObject.Find ("Sun_Button");
 
@@ -93,10 +91,6 @@ public class DataManager : MonoBehaviour
             UIManager.instance.ToggleSunSlider();
         }
         UIManager.instance.minimap.SetActive(false);
-        if (Camera_plan.GetComponent<ModeMesure>().mode_mesure == true)
-        {
-			Camera_plan.GetComponent<ModeMesure>().switchMesure();
-        }
 
         MODE_COURANT = modeSelect;
         switch (MODE_COURANT)
@@ -106,10 +100,7 @@ public class DataManager : MonoBehaviour
                 OrbitalModeButton.GetComponent<Button> ().interactable = false;
 			    PietonModeButton.GetComponent<Button> ().interactable = true;
 			    VeilleModeButton.GetComponent<Button> ().interactable = true;
-			    MesureModeButton.SetActive(false);
-                //
-                //ConstructionModeButton.SetActive(false);
-                //
+
                 SunButton.SetActive (true);
 
 			    Camera_veille.SetActive(false);
@@ -124,7 +115,6 @@ public class DataManager : MonoBehaviour
 		        OrbitalModeButton.GetComponent<Button> ().interactable = true;
 		        PietonModeButton.GetComponent<Button> ().interactable = true;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
-		        MesureModeButton.SetActive (true);
                 //ConstructionModeButton.SetActive(false);
                 SunButton.SetActive (true);
 
@@ -140,7 +130,6 @@ public class DataManager : MonoBehaviour
 		        OrbitalModeButton.GetComponent<Button> ().interactable = true;
 		        PietonModeButton.GetComponent<Button> ().interactable = false;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
-		        MesureModeButton.SetActive(false);
                 //ConstructionModeButton.SetActive(false);
 		        SunButton.SetActive(true);
 
@@ -158,7 +147,6 @@ public class DataManager : MonoBehaviour
                 OrbitalModeButton.GetComponent<Button>().interactable = true;
                 PietonModeButton.GetComponent<Button>().interactable = true;
                 VeilleModeButton.GetComponent<Button>().interactable = false;
-		        MesureModeButton.SetActive(false);
                 //ConstructionModeButton.SetActive(false);
 		        SunButton.SetActive(false);
 

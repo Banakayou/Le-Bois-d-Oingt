@@ -258,15 +258,6 @@ public class UIManager : MonoBehaviour {
         credits.SetActive(false);
         ToggleSpeedCameraVeillePanel();
         sunSlider.SetActive(false);
-        if (DataManager.instance.MODE_COURANT != DataManager.MODE_PLAN)
-        {
-            DataManager.instance.MesureModeButton.SetActive(false);
-            DataManager.instance.Camera_plan.GetComponent<ModeMesure>().DeleteMesuresButton.SetActive(false);
-        }
-        else if (DataManager.instance.Camera_plan.GetComponent<ModeMesure>().mode_mesure == false || DataManager.instance.Camera_plan.GetComponent<ModeMesure>().nbNodes == 0)
-        {
-            DataManager.instance.Camera_plan.GetComponent<ModeMesure>().DeleteMesuresButton.SetActive(false);
-        }
         
         
         if (DataManager.instance.MODE_COURANT != DataManager.MODE_PIETON)
