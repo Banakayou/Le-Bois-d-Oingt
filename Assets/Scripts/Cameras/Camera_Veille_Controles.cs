@@ -21,6 +21,13 @@ public class Camera_Veille_Controles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        DayNightController.instance.m_currentTimeOfDay += (Time.deltaTime / DayNightController.instance.m_secondsInFullDay) * DayNightController.instance.m_timeMultiplier;
+        DayNightController.instance.m_sunSlider.value = DayNightController.instance.m_currentTimeOfDay;
+        if (DayNightController.instance.m_currentTimeOfDay >= 1)
+        {
+            DayNightController.instance.m_currentTimeOfDay = 0;
+        }
+
         transform.RotateAround(target.position, Vector3.up, sensX * Time.deltaTime);
 		transform.LookAt(target.position);
     }

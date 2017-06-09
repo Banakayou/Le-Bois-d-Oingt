@@ -66,33 +66,18 @@ public class DayNightController : MonoBehaviour {
             }
         }
 		m_logoSaisons = GameObject.Find("Saison_Button").GetComponent<Image>();
+        m_horloge = GameObject.Find("Horloge");
     }
 
     void Start() {
 		m_sunSlider = UIManager.instance.sunSlider.GetComponent<Slider>();
 		m_lamps = GameObject.FindGameObjectsWithTag("Lampadaire");
-		m_horloge = GameObject.Find("Horloge");
 
-        m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; });
+        m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();});
 
         resetTimeOfDay();
     }
-
-    void Update() {
-		UpdateSun();
-		UpdateClock ();
-
-        if (DataManager.instance.MODE_COURANT == DataManager.MODE_VEILLE)
-        {
-			m_currentTimeOfDay += (Time.deltaTime / m_secondsInFullDay) * m_timeMultiplier;
-			m_sunSlider.value = m_currentTimeOfDay;
-        }
-
-		if (m_currentTimeOfDay >= 1) {
-			m_currentTimeOfDay = 0;
-		}
-
-    }
+    
 
 	void UpdateClock()
 	{

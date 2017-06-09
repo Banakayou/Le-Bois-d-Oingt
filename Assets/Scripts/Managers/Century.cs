@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Century : MonoBehaviour {
-
+    public Font font17;
+    public Font font13s;
 	[HideInInspector] public GameObject city13s;
 	[HideInInspector] public Animator animatorCity13s;
     [HideInInspector] public bool statusCity13s;
@@ -29,7 +30,7 @@ public class Century : MonoBehaviour {
 		statusCity2017 = false;
 
 		centuryString = GameObject.Find ("NomProjet").GetComponent<Text>();
-
+        changeFontsTo13s();
 	}
 	
 	// Update is called once per frame
@@ -69,8 +70,8 @@ public class Century : MonoBehaviour {
 		if (statusCity13s == false) {
 			animatorCity13s.Play ("13so");
 			statusCity13s = true;
-			centuryString.GetComponent<Text>().text = "13ème siècle";
-		} else if (statusCity13s == true) {
+            changeFontsTo13s();
+        } else if (statusCity13s == true) {
 			animatorCity13s.Play ("13s");
 			statusCity13s = false;
 		}
@@ -83,12 +84,28 @@ public class Century : MonoBehaviour {
 		{
 			animatorCity2017.Play("2017o");
 			statusCity2017 = true;
-			centuryString.GetComponent<Text> ().text = "2017";
-		}
+            changeFontsTo2017();
+        }
 		else if (statusCity2017 == true)
 		{
 			animatorCity2017.Play("2017");
 			statusCity2017 = false;
 		}
 	}
+
+    private void changeFontsTo2017()
+    {
+        centuryString.GetComponent<Text>().font = font17;
+        centuryString.GetComponent<Text>().text = "2017";
+        DayNightController.instance.m_horloge.GetComponent<Text>().font = font17;
+        DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 30;
+    }
+
+    private void changeFontsTo13s()
+    {
+        centuryString.GetComponent<Text>().font = font13s;
+        centuryString.GetComponent<Text>().text = "13ème siècle";
+        DayNightController.instance.m_horloge.GetComponent<Text>().font = font13s;
+        DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 20;
+    } 
 }
