@@ -72,11 +72,7 @@ public class UIManager : MonoBehaviour {
 	[HideInInspector] public bool statusMinimap;
     
 	[HideInInspector] public GameObject sunSlider;
-
-
-
-    [HideInInspector] public GameObject speedCameraVeillePanel;
-
+    
     string folderPath = "";
 
 	#if UNITY_IOS || UNITY_ANDROID
@@ -136,8 +132,6 @@ public class UIManager : MonoBehaviour {
 		statusMinimap = false;
 
         sunSlider = GameObject.Find("Sun_Slider");
-
-        speedCameraVeillePanel = GameObject.Find("SpeedCameraVeille");
 	}
 	
 	// Update is called once per frame
@@ -186,20 +180,7 @@ public class UIManager : MonoBehaviour {
             DataManager.instance.Camera_minimap.SetActive(false);
         }
 	}
-
-    public void ToggleSunSlider()
-    {
-        sunSlider.SetActive(!sunSlider.activeSelf);
-		if (!sunSlider.activeSelf)
-		{
-			DayNightController.instance.resetTimeOfDay();
-		}
-    }
-
-    public void ToggleSpeedCameraVeillePanel()
-    {
-        speedCameraVeillePanel.SetActive(!speedCameraVeillePanel.activeSelf);
-    }
+    
 
     public void TakeScreenshot()
     {
@@ -256,21 +237,13 @@ public class UIManager : MonoBehaviour {
             HUD.transform.GetChild(i).gameObject.SetActive(true);
         }
         credits.SetActive(false);
-        ToggleSpeedCameraVeillePanel();
-        sunSlider.SetActive(false);
         
         
         if (DataManager.instance.MODE_COURANT != DataManager.MODE_PIETON)
         {
             minimap.SetActive(false);
         }
-
-        if (DataManager.instance.MODE_COURANT == DataManager.MODE_VEILLE)
-        {
-            ToggleSpeedCameraVeillePanel();
-            DataManager.instance.SunButton.SetActive(false);
-            sunSlider.SetActive(true);
-        }
+        
     }
 }
 

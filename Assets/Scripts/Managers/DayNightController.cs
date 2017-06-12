@@ -25,8 +25,6 @@ public class DayNightController : MonoBehaviour {
     [HideInInspector] public GameObject m_horloge;
     [HideInInspector] public Slider m_sunSlider;
     [HideInInspector] public Image m_logoSaisons;
-    public Sprite m_summerLogo;
-    public Sprite m_winterLogo;
 
 	//Données de calcul
     public AnimationCurve m_summerSourceIntensity;
@@ -72,10 +70,9 @@ public class DayNightController : MonoBehaviour {
     void Start() {
 		m_sunSlider = UIManager.instance.sunSlider.GetComponent<Slider>();
 		m_lamps = GameObject.FindGameObjectsWithTag("Lampadaire");
-
+        m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();
         m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();});
-
-        resetTimeOfDay();
+        
     }
     
 
@@ -148,27 +145,5 @@ public class DayNightController : MonoBehaviour {
 			//water.GetComponent<WaterMatChanger>().setNightMaterial();
         }
     }
-
-    public void toggleSeason()
-    {
-		m_summer = !m_summer;
-		if (m_summer)
-        {
-			m_logoSaisons.sprite = m_summerLogo;
-        }
-        else
-        {
-			m_logoSaisons.sprite = m_winterLogo;
-        }
-        return;
-    }
-
-	public void resetTimeOfDay()
-	{
-		if (m_summer == false)
-        {
-            toggleSeason();
-        }
-		m_sunSlider.value = m_currentTimeOfDay = m_initialTimeOfDay;
-	}
+    
 }

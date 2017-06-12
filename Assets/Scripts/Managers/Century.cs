@@ -95,7 +95,10 @@ public class Century : MonoBehaviour {
 
     private void changeFontsTo2017()
     {
+        centuryString.transform.parent.GetComponent<Text>().font = font17;
+        centuryString.transform.parent.GetComponent<Text>().fontSize = 70;
         centuryString.GetComponent<Text>().font = font17;
+        centuryString.GetComponent<Text>().fontSize = 70;
         centuryString.GetComponent<Text>().text = "2017";
         DayNightController.instance.m_horloge.GetComponent<Text>().font = font17;
         DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 30;
@@ -103,7 +106,10 @@ public class Century : MonoBehaviour {
 
     private void changeFontsTo13s()
     {
+        centuryString.transform.parent.GetComponent<Text>().font = font13s;
+        centuryString.transform.parent.GetComponent<Text>().fontSize = 52;
         centuryString.GetComponent<Text>().font = font13s;
+        centuryString.GetComponent<Text>().fontSize = 52;
         centuryString.GetComponent<Text>().text = "13ème siècle";
         DayNightController.instance.m_horloge.GetComponent<Text>().font = font13s;
         DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 20;

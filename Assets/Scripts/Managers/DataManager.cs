@@ -17,7 +17,6 @@ public class DataManager : MonoBehaviour
     [HideInInspector] public GameObject OrbitalModeButton;
     [HideInInspector] public GameObject PietonModeButton;
     [HideInInspector] public GameObject VeilleModeButton;
-    [HideInInspector] public GameObject SunButton;
     
 	private static DataManager _instance;
 	public static DataManager instance
@@ -62,21 +61,15 @@ public class DataManager : MonoBehaviour
 		OrbitalModeButton = GameObject.Find("Orbital_Mode_Button");
 		PietonModeButton = GameObject.Find("Pieton_Mode_Button");
 		VeilleModeButton = GameObject.Find("Veille_Mode_Button");
-        SunButton = GameObject.Find ("Sun_Button");
 
 		setMode(MODE_COURANT);
-        UIManager.instance.sunSlider.SetActive(false);
     }
     
 
     public void setMode(int modeSelect)
     {
         this.GetComponent<FadeCamera>().FadeToBlack();
-
-        if (UIManager.instance.speedCameraVeillePanel.activeSelf)
-        {
-            UIManager.instance.ToggleSpeedCameraVeillePanel();
-        }
+        
         UIManager.instance.minimap.SetActive(false);
 
         MODE_COURANT = modeSelect;
@@ -86,8 +79,6 @@ public class DataManager : MonoBehaviour
                 OrbitalModeButton.GetComponent<Button> ().interactable = false;
 			    PietonModeButton.GetComponent<Button> ().interactable = true;
 			    VeilleModeButton.GetComponent<Button> ().interactable = true;
-
-                SunButton.SetActive (true);
 
 			    Camera_veille.SetActive(false);
 		        Camera_pieton.SetActive(false);
@@ -99,8 +90,6 @@ public class DataManager : MonoBehaviour
 		        OrbitalModeButton.GetComponent<Button> ().interactable = true;
 		        PietonModeButton.GetComponent<Button> ().interactable = true;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
-                //ConstructionModeButton.SetActive(false);
-                SunButton.SetActive (true);
 
                 Camera_veille.SetActive(false);
                 Camera_pieton.SetActive(false);
@@ -112,8 +101,6 @@ public class DataManager : MonoBehaviour
 		        OrbitalModeButton.GetComponent<Button> ().interactable = true;
 		        PietonModeButton.GetComponent<Button> ().interactable = false;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
-                //ConstructionModeButton.SetActive(false);
-		        SunButton.SetActive(true);
 
                 Camera_veille.SetActive(false);
                 Camera_pieton.SetActive(true);
@@ -127,24 +114,15 @@ public class DataManager : MonoBehaviour
                 OrbitalModeButton.GetComponent<Button>().interactable = true;
                 PietonModeButton.GetComponent<Button>().interactable = true;
                 VeilleModeButton.GetComponent<Button>().interactable = false;
-                //ConstructionModeButton.SetActive(false);
-		        SunButton.SetActive(false);
 
                 Camera_veille.SetActive(true);
                 Camera_pieton.SetActive(false);
                 Camera_orbitale.SetActive(false);
-
-                UIManager.instance.ToggleSpeedCameraVeillePanel();
-                UIManager.instance.ToggleSunSlider();
+                
 		        ClickToWalk.instance.enabled = false;
                 break;
         }
         this.GetComponent<FadeCamera>().FadeToClear();
     }
-
-    void OnApplicationQuit()
-    {
-        DayNightController.instance.resetTimeOfDay();
-    }
-
+    
 }
