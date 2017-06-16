@@ -24,7 +24,6 @@ public class DayNightController : MonoBehaviour {
 	//Elements du HUD
     [HideInInspector] public GameObject m_horloge;
     [HideInInspector] public Slider m_sunSlider;
-    [HideInInspector] public Image m_logoSaisons;
 
 	//Données de calcul
     public AnimationCurve m_summerSourceIntensity;
@@ -63,7 +62,6 @@ public class DayNightController : MonoBehaviour {
                 Destroy(this.gameObject);
             }
         }
-		m_logoSaisons = GameObject.Find("Saison_Button").GetComponent<Image>();
         m_horloge = GameObject.Find("Horloge");
     }
 

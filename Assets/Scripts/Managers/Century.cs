@@ -17,14 +17,32 @@ public class Century : MonoBehaviour {
 	[HideInInspector] public Text centuryString;
     private bool inTransition = false;
 
-	// Use this for initialization
-	void Start () {
-		city13s = GameObject.Find("13S - Alexis_FBX");
+    public Sprite century_13s;
+    public Sprite capture_13s;
+    public Sprite clock_13s;
+    public Sprite info_13s;
+    public Sprite boussole_13s;
+    public Sprite auto_13s;
+    public Sprite pieton_13s;
+    public Sprite orbit_13s;
+
+    public Sprite century_17;
+    public Sprite capture_17;
+    public Sprite clock_17;
+    public Sprite info_17;
+    public Sprite boussole_17;
+    public Sprite auto_17;
+    public Sprite pieton_17;
+    public Sprite orbit_17;
+
+    // Use this for initialization
+    void Start () {
+		city13s = GameObject.Find("13eme");
 		animatorCity13s = city13s.GetComponent<Animator>();
 		animatorCity13s.enabled = false;
 		statusCity13s = true;
 
-		city2017 = GameObject.Find("2017 - Alexis_FBX");
+		city2017 = GameObject.Find("2017");
 		animatorCity2017 = city2017.GetComponent<Animator>();
 		animatorCity2017.enabled = false;
 		statusCity2017 = false;
@@ -61,7 +79,7 @@ public class Century : MonoBehaviour {
     private void StopFlash()
     {
         inTransition = false;
-        centuryString.color = Color.white;
+        centuryString.color = new Color(centuryString.color.r, centuryString.color.g, centuryString.color.b, 1);
     }
 
 	private void Toggle13s()
@@ -71,6 +89,7 @@ public class Century : MonoBehaviour {
 			animatorCity13s.Play ("13so");
 			statusCity13s = true;
             changeFontsTo13s();
+            changeIconsTo13s();
         } else if (statusCity13s == true) {
 			animatorCity13s.Play ("13s");
 			statusCity13s = false;
@@ -85,6 +104,7 @@ public class Century : MonoBehaviour {
 			animatorCity2017.Play("2017o");
 			statusCity2017 = true;
             changeFontsTo2017();
+            changeIconsTo17();
         }
 		else if (statusCity2017 == true)
 		{
@@ -100,6 +120,7 @@ public class Century : MonoBehaviour {
         centuryString.GetComponent<Text>().font = font17;
         centuryString.GetComponent<Text>().fontSize = 70;
         centuryString.GetComponent<Text>().text = "2017";
+        centuryString.color = Color.black;
         DayNightController.instance.m_horloge.GetComponent<Text>().font = font17;
         DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 30;
     }
@@ -111,7 +132,38 @@ public class Century : MonoBehaviour {
         centuryString.GetComponent<Text>().font = font13s;
         centuryString.GetComponent<Text>().fontSize = 52;
         centuryString.GetComponent<Text>().text = "13ème siècle";
+        centuryString.color = Color.black;
         DayNightController.instance.m_horloge.GetComponent<Text>().font = font13s;
         DayNightController.instance.m_horloge.GetComponent<Text>().fontSize = 20;
     } 
+
+    private void changeIconsTo13s()
+    {
+        DataManager.instance.OrbitalModeButton.GetComponent<Image>().sprite = orbit_13s;
+        DataManager.instance.PietonModeButton.GetComponent<Image>().sprite = pieton_13s;
+        DataManager.instance.VeilleModeButton.GetComponent<Image>().sprite = auto_13s;
+        this.GetComponent<Image>().sprite = century_13s;
+        DayNightController.instance.m_horloge.transform.parent.GetComponent<Image>().sprite = clock_13s;
+        GameObject.Find("Capture_Button").GetComponent<Image>().sprite = capture_13s;
+        GameObject.Find("Info_Button").GetComponent<Image>().sprite = info_13s;
+        GameObject.Find("Contour").GetComponent<Image>().sprite = boussole_13s;
+        ColorBlock cb = GameObject.Find("ImageButtonMinimap").transform.parent.GetComponent<Button>().colors;
+        cb.normalColor = cb.pressedColor = cb.highlightedColor = new Color(148, 111, 54, 255);
+        GameObject.Find("ImageButtonMinimap").transform.parent.GetComponent<Button>().colors = cb;
+    }
+
+    private void changeIconsTo17()
+    {
+        DataManager.instance.OrbitalModeButton.GetComponent<Image>().sprite = orbit_17;
+        DataManager.instance.PietonModeButton.GetComponent<Image>().sprite = pieton_17;
+        DataManager.instance.VeilleModeButton.GetComponent<Image>().sprite = auto_17;
+        this.GetComponent<Image>().sprite = century_17;
+        DayNightController.instance.m_horloge.transform.parent.GetComponent<Image>().sprite = clock_17;
+        GameObject.Find("Capture_Button").GetComponent<Image>().sprite = capture_17;
+        GameObject.Find("Info_Button").GetComponent<Image>().sprite = info_17;
+        GameObject.Find("Contour").GetComponent<Image>().sprite = boussole_17;
+        ColorBlock cb = GameObject.Find("ImageButtonMinimap").transform.parent.GetComponent<Button>().colors;
+        cb.normalColor = cb.pressedColor = cb.highlightedColor = new Color(238, 185, 83, 255);
+        GameObject.Find("ImageButtonMinimap").transform.parent.GetComponent<Button>().colors = cb;
+    }
 }

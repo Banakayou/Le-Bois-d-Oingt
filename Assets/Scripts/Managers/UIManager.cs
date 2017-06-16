@@ -60,7 +60,6 @@ public class ScreenShotBridgeIOS
 
 public class UIManager : MonoBehaviour {
     [HideInInspector] public GameObject HUD;
-    [HideInInspector] public GameObject logoClient;
     [HideInInspector] public GameObject imagesNonContractuelles;
 
     [HideInInspector] public GameObject credits;
@@ -117,7 +116,6 @@ public class UIManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         HUD = GameObject.Find("HUD");
-        logoClient = GameObject.Find("Logo_Client");
         imagesNonContractuelles = GameObject.Find("Images non-contractuelles");
 
         credits = GameObject.Find("Credits");
@@ -226,7 +224,6 @@ public class UIManager : MonoBehaviour {
         {
             HUD.transform.GetChild(i).gameObject.SetActive(false);
         }
-        logoClient.SetActive(true);
         imagesNonContractuelles.SetActive(true);
 
     }
