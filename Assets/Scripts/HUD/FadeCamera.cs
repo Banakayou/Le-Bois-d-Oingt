@@ -28,10 +28,12 @@ public class FadeCamera : MonoBehaviour {
     public void FadeToClear()
     {
         targetAlpha = 0.0f;
+        fadeImage.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     public void FadeToBlack()
     {
+        targetAlpha = 1.0f;
         fadeImage.color = Color.black;
     }
 }

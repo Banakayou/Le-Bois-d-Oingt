@@ -62,7 +62,7 @@ public class DataManager : MonoBehaviour
 		PietonModeButton = GameObject.Find("Pieton_Mode_Button");
 		VeilleModeButton = GameObject.Find("Veille_Mode_Button");
 
-		setMode(MODE_COURANT);
+        this.GetComponent<FadeCamera>().FadeToBlack();
     }
     
 
