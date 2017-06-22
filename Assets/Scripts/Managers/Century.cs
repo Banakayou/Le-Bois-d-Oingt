@@ -62,6 +62,7 @@ public class Century : MonoBehaviour {
 
 	public void ToggleCentury()
 	{
+        DataManager.instance.setMode(1);
         if (statusCity13s == true)
         {
             Toggle13s();

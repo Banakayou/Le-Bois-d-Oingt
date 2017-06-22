@@ -7,13 +7,15 @@ public class DataManager : MonoBehaviour
     public const int MODE_VEILLE = 1;
     public const int MODE_PLAN = 2;
     public const int MODE_PIETON = 3;
+    public const int MODE_TOUR = 4;
     [HideInInspector] public int MODE_COURANT = MODE_ORBITAL;
 
     [HideInInspector] public GameObject Camera_orbitale;
     [HideInInspector] public GameObject Camera_veille;
     [HideInInspector] public GameObject Camera_pieton;
     [HideInInspector] public GameObject Camera_minimap;
-    
+    [HideInInspector] public Camera Camera_tour;
+
     [HideInInspector] public GameObject OrbitalModeButton;
     [HideInInspector] public GameObject PietonModeButton;
     [HideInInspector] public GameObject VeilleModeButton;
@@ -63,9 +65,13 @@ public class DataManager : MonoBehaviour
 		VeilleModeButton = GameObject.Find("Veille_Mode_Button");
 
         this.GetComponent<FadeCamera>().FadeToBlack();
+        Invoke("findCamTour", 1);
     }
-    
 
+    private void findCamTour()
+    {
+        Camera_tour = GameObject.Find("Andromeda(Clone)").GetComponentInChildren<Camera>();
+    }
     public void setMode(int modeSelect)
     {
         this.GetComponent<FadeCamera>().FadeToBlack();
@@ -80,6 +86,7 @@ public class DataManager : MonoBehaviour
 			    PietonModeButton.GetComponent<Button> ().interactable = true;
 			    VeilleModeButton.GetComponent<Button> ().interactable = true;
 
+                Camera_tour.gameObject.SetActive(false);
 			    Camera_veille.SetActive(false);
 		        Camera_pieton.SetActive(false);
                 Camera_orbitale.SetActive(true);
@@ -91,6 +98,7 @@ public class DataManager : MonoBehaviour
 		        PietonModeButton.GetComponent<Button> ().interactable = true;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
 
+                Camera_tour.gameObject.SetActive(false);
                 Camera_veille.SetActive(false);
                 Camera_pieton.SetActive(false);
                 Camera_orbitale.SetActive(false);
@@ -102,6 +110,7 @@ public class DataManager : MonoBehaviour
 		        PietonModeButton.GetComponent<Button> ().interactable = false;
 		        VeilleModeButton.GetComponent<Button> ().interactable = true;
 
+                Camera_tour.gameObject.SetActive(false);
                 Camera_veille.SetActive(false);
                 Camera_pieton.SetActive(true);
                 Camera_orbitale.SetActive(false);
@@ -110,11 +119,24 @@ public class DataManager : MonoBehaviour
 		        UIManager.instance.animMinimap.enabled = false;
 		        ClickToWalk.instance.enabled = true;
                 break;
-            default: //MODE_VEILLE
+            case (MODE_TOUR):
                 OrbitalModeButton.GetComponent<Button>().interactable = true;
                 PietonModeButton.GetComponent<Button>().interactable = true;
                 VeilleModeButton.GetComponent<Button>().interactable = false;
 
+                Camera_tour.gameObject.SetActive(true);
+                Camera_veille.SetActive(false);
+                Camera_pieton.SetActive(false);
+                Camera_orbitale.SetActive(false);
+
+                ClickToWalk.instance.enabled = false;
+                break;
+            default: //MODE_VEILLE
+                OrbitalModeButton.GetComponent<Button>().interactable = true;
+                PietonModeButton.GetComponent<Button>().interactable = true;
+                VeilleModeButton.GetComponent<Button>().interactable = true;
+
+                Camera_tour.gameObject.SetActive(false);
                 Camera_veille.SetActive(true);
                 Camera_pieton.SetActive(false);
                 Camera_orbitale.SetActive(false);

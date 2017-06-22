@@ -7,7 +7,7 @@ public class Camera_Veille_Controles : MonoBehaviour {
     [HideInInspector] public GameObject MinusSpeedVeille;
     [HideInInspector] public GameObject PlusSpeedVeille;
 
-    private float sensX = 4f;
+    private float sensX = 10f;
     private float sensXpalier = 3f;
     private float sensXmin = 1f;
     private float sensXmax = 10f;

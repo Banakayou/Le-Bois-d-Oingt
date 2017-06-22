@@ -9,7 +9,8 @@ public class DayNightController : MonoBehaviour {
     public Light m_sun;
     public Transform m_stars;
 	[HideInInspector] public GameObject[] m_lamps;
-	public float m_lampsViewDistance = 250f;
+    [HideInInspector] public GameObject[] m_flams;
+    public float m_lampsViewDistance = 250f;
 
 	//Système Jour/Nuit
 	[HideInInspector] public bool m_summer; //false = hiver, true = été
@@ -68,6 +69,7 @@ public class DayNightController : MonoBehaviour {
     void Start() {
 		m_sunSlider = UIManager.instance.sunSlider.GetComponent<Slider>();
 		m_lamps = GameObject.FindGameObjectsWithTag("Lampadaire");
+        m_flams = GameObject.FindGameObjectsWithTag("flam");
         m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();
         m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();});
         
@@ -110,11 +112,11 @@ public class DayNightController : MonoBehaviour {
         {
             foreach (GameObject go in m_lamps)
             {
-                #if UNITY_ANDROID
-                /* TODO Emissive material instead of light*/
-                #else
                 go.GetComponentInChildren<Light>().enabled = false;
-                #endif
+            }
+            foreach (GameObject go in m_flams)
+            {
+                go.SetActive(false);
             }
             m_stars.gameObject.SetActive(false);
 			//water.GetComponent<WaterMatChanger>().setDayMaterial();
@@ -123,12 +125,8 @@ public class DayNightController : MonoBehaviour {
         {
 			foreach (GameObject go in m_lamps)
             {
-                #if UNITY_ANDROID
-                /* TODO Emissive material instead of light*/
-
-                #else
                 Vector3 distLamp = go.transform.position - Camera.main.transform.position;//dist de la cam
-				Light lampe = go.GetComponentInChildren<Light>();
+				Light lampe = go.GetComponent<Light>();
 				if (distLamp.sqrMagnitude < (m_lampsViewDistance * m_lampsViewDistance))
 				{
 					lampe.enabled = true;
@@ -137,7 +135,10 @@ public class DayNightController : MonoBehaviour {
 				{
 					lampe.enabled = false;
 				}
-                #endif
+            }
+            foreach (GameObject go in m_flams)
+            {
+                go.SetActive(true);
             }
 			m_stars.gameObject.SetActive(true);
 			//water.GetComponent<WaterMatChanger>().setNightMaterial();

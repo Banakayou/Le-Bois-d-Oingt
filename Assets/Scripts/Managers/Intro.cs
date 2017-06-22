@@ -53,7 +53,7 @@ public class Intro : MonoBehaviour {
         if (current_child == 7)
         {
             fadescreen.transform.GetChild(current_child).gameObject.SetActive(false);
-            fadescreen.transform.GetChild(0).GetComponent<Text>().text = "Ces deux derniers boutons servent à piloter manuellement la caméra grâce au clic gauche et les touches fléchées.\n Il est possible de passer du mode orbital à piéton en cliquant longtemps sur le sol";
+            fadescreen.transform.GetChild(0).GetComponent<Text>().text = "Ces deux derniers boutons servent à piloter manuellement la caméra\n Vous aurez besoin de votre souris et des touches fléchées";
             current_child += 1;
             fadescreen.transform.GetChild(current_child).gameObject.SetActive(true);
         }

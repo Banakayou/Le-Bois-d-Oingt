@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: b30bc3389784bdb45bd961de01d0bd03
+timeCreated: 1498118632
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '* Vitrail ST PIERRE'
+    100002: '* Vitrail ST PIERRE001'
+    100004: '*Futur vitrail'
+    100006: '*Futur vitrail001'
+    100008: '*Futur vitrail002'
+    100010: '*VITRAIL ST JEAN'
+    100012: '*VITRAIL ST JEAN001'
+    100014: '*vITRAIL st jesus christ '
+    100016: '*Vitrail ST LUC'
+    100018: '*Vitrail ST LUC001'
+    100020: '*vITRAIL st MARC'
+    100022: '*vITRAIL st MARC001'
+    100024: '*Vitrail ST Mathieu '
+    100026: '*Vitrail ST Mathieu 001'
+    100028: '*Vitrail ST PAUL'
+    100030: '*Vitrail ST PAUL001'
+    100032: 65-toiture
+    100034: Arch001
+    100036: Arch003
+    100038: Arche 05
+    100040: "Arche entr\xE9e clem"
+    100042: "Arche fa\xE7ade"
+    100044: "arche02 fa\xE7ade"
+    100046: Block:N
+    100048: Block:N 1
+    100050: Block:N 2
+    100052: Block:N 3
+    100054: Boiserie +
+    100056: Boiserie ++
+    100058: Boiserie ++_MeshPart0
+    100060: Boiserie ++_MeshPart1
+    100062: Cylinder011
+    100064: Cylinder012
+    100066: "D\xE9tail 006"
+    100068: "D\xE9tail 01"
+    100070: "D\xE9tail 02"
+    100072: "D\xE9tail 03"
+    100074: "D\xE9tail 04"
+    100076: "D\xE9tail 05"
+    100078: EGLISE
+    100080: //RootNode
+    100082: EGLISE 1
+    100084: Fleur
+    100086: "Fleur entr\xE9e \xE9glise"
+    100088: Line006
+    100090: Line006 1
+    100092: Line007
+    100094: Line007 1
+    100096: Line008
+    100098: Line008 1
+    100100: Line010
+    100102: Line010 1
+    100104: Line028
+    100106: Line029
+    100108: Line045
+    100110: Line066
+    100112: "motif voute entr\xE9e"
+    100114: "motif voute entr\xE9e 1"
+    100116: Moulure 11
+    100118: Moulure pilier01
+    100120: Moulure pilier02
+    100122: Moulure pilier03
+    100124: Moulure pilier04
+    100126: Moulure pilier05
+    100128: Moulure pilier06
+    100130: Moulure pilier07
+    100132: Moulure pilier08
+    100134: Moulure pilier08 1
+    100136: Moulure pilier09
+    100138: Object
+    100140: Object007
+    100142: Object020
+    100144: Object023
+    100146: Object023 1
+    100148: Object026
+    100150: Object030
+    100152: Object031
+    100154: Object033
+    100156: Object043
+    100158: Object045
+    100160: Object047
+    100162: Object048
+    100164: Object050
+    100166: Object051
+    100168: Object052
+    100170: Object053
+    100172: Object055
+    100174: Object056
+    100176: Object058
+    100178: Object059
+    100180: Object060
+    100182: Object061
+    100184: Object062
+    100186: Object063
+    100188: Object064
+    100190: Object065
+    100192: Object066
+    100194: Object067
+    100196: Object068
+    100198: Object069
+    100200: Object070
+    100202: Object071
+    100204: Object072
+    100206: Object073
+    100208: Object076
+    100210: Object077
+    100212: Object078
+    100214: Object079
+    100216: Object080
+    100218: Object081
+    100220: Object083
+    100222: Object085
+    100224: Object087
+    100226: Object089
+    100228: Object090
+    100230: Object091
+    100232: Object092
+    100234: Object093
+    100236: Object094
+    100238: Object097
+    100240: Object098
+    100242: Object099
+    100244: Object100
+    100246: Object101
+    100248: Object102
+    100250: Object113
+    100252: Object151
+    100254: pancarte PRIVE
+    100256: Particle View 001
+    100258: Petite serrure
+    100260: Petite serrure001
+    100262: Plafond 004
+    100264: Plafond 02
+    100266: Plafond 03
+    100268: Plafond 04_
+    100270: Plane010
+    100272: Plane010 1
+    100274: Plane017
+    100276: Plane018
+    100278: Plane019
+    100280: Plane021
+    100282: Plane025
+    100284: Plane026
+    100286: Plane027
+    100288: Plane028
+    100290: Plane030
+    100292: Plane031
+    100294: Plane031 1
+    100296: Plane033
+    100298: Plane033 1
+    100300: Plane034
+    100302: Plane034 1
+    100304: Plane035
+    100306: Plane035 1
+    100308: Plane036
+    100310: Plane036 1
+    100312: Plane037
+    100314: Plane037 1
+    100316: Plane038
+    100318: Plane038 1
+    100320: Plane039
+    100322: Plane039 1
+    100324: Plane040
+    100326: Plane040 1
+    100328: Plane041
+    100330: Plane041 1
+    100332: Plane042
+    100334: Plane042 1
+    100336: Plane043
+    100338: Plane043 1
+    100340: Plane044
+    100342: Plane044 1
+    100344: Plane047
+    100346: Plane047 1
+    100348: Plane048
+    100350: Plane053
+    100352: Plane054
+    100354: "Poign\xE9e de porte LOGE"
+    100356: "Poign\xE9e de porte LOGE001"
+    100358: Porte LOGE
+    100360: Porte loge
+    100362: Porte PRIVE
+    100364: Porte PRIVE 1
+    100366: "Sc\xE8ne"
+    100368: Sphere003
+    100370: Sphere004
+    100372: Sphere005
+    100374: Sphere006
+    100376: Sphere007
+    100378: Sphere008
+    100380: Sphere008 1
+    100382: Sphere009
+    100384: Sphere009 1
+    100386: virail004
+    100388: virail004 1
+    100390: Vitrage petite fenetre001
+    100392: Vitrage toute petite fenetre de droite
+    100394: "Voute entr\xE9e ensemble "
+    100396: Voute002
+    400000: '* Vitrail ST PIERRE'
+    400002: '* Vitrail ST PIERRE001'
+    400004: '*Futur vitrail'
+    400006: '*Futur vitrail001'
+    400008: '*Futur vitrail002'
+    400010: '*VITRAIL ST JEAN'
+    400012: '*VITRAIL ST JEAN001'
+    400014: '*vITRAIL st jesus christ '
+    400016: '*Vitrail ST LUC'
+    400018: '*Vitrail ST LUC001'
+    400020: '*vITRAIL st MARC'
+    400022: '*vITRAIL st MARC001'
+    400024: '*Vitrail ST Mathieu '
+    400026: '*Vitrail ST Mathieu 001'
+    400028: '*Vitrail ST PAUL'
+    400030: '*Vitrail ST PAUL001'
+    400032: 65-toiture
+    400034: Arch001
+    400036: Arch003
+    400038: Arche 05
+    400040: "Arche entr\xE9e clem"
+    400042: "Arche fa\xE7ade"
+    400044: "arche02 fa\xE7ade"
+    400046: Block:N
+    400048: Block:N 1
+    400050: Block:N 2
+    400052: Block:N 3
+    400054: Boiserie +
+    400056: Boiserie ++
+    400058: Boiserie ++_MeshPart0
+    400060: Boiserie ++_MeshPart1
+    400062: Cylinder011
+    400064: Cylinder012
+    400066: "D\xE9tail 006"
+    400068: "D\xE9tail 01"
+    400070: "D\xE9tail 02"
+    400072: "D\xE9tail 03"
+    400074: "D\xE9tail 04"
+    400076: "D\xE9tail 05"
+    400078: EGLISE
+    400080: //RootNode
+    400082: EGLISE 1
+    400084: Fleur
+    400086: "Fleur entr\xE9e \xE9glise"
+    400088: Line006
+    400090: Line006 1
+    400092: Line007
+    400094: Line007 1
+    400096: Line008
+    400098: Line008 1
+    400100: Line010
+    400102: Line010 1
+    400104: Line028
+    400106: Line029
+    400108: Line045
+    400110: Line066
+    400112: "motif voute entr\xE9e"
+    400114: "motif voute entr\xE9e 1"
+    400116: Moulure 11
+    400118: Moulure pilier01
+    400120: Moulure pilier02
+    400122: Moulure pilier03
+    400124: Moulure pilier04
+    400126: Moulure pilier05
+    400128: Moulure pilier06
+    400130: Moulure pilier07
+    400132: Moulure pilier08
+    400134: Moulure pilier08 1
+    400136: Moulure pilier09
+    400138: Object
+    400140: Object007
+    400142: Object020
+    400144: Object023
+    400146: Object023 1
+    400148: Object026
+    400150: Object030
+    400152: Object031
+    400154: Object033
+    400156: Object043
+    400158: Object045
+    400160: Object047
+    400162: Object048
+    400164: Object050
+    400166: Object051
+    400168: Object052
+    400170: Object053
+    400172: Object055
+    400174: Object056
+    400176: Object058
+    400178: Object059
+    400180: Object060
+    400182: Object061
+    400184: Object062
+    400186: Object063
+    400188: Object064
+    400190: Object065
+    400192: Object066
+    400194: Object067
+    400196: Object068
+    400198: Object069
+    400200: Object070
+    400202: Object071
+    400204: Object072
+    400206: Object073
+    400208: Object076
+    400210: Object077
+    400212: Object078
+    400214: Object079
+    400216: Object080
+    400218: Object081
+    400220: Object083
+    400222: Object085
+    400224: Object087
+    400226: Object089
+    400228: Object090
+    400230: Object091
+    400232: Object092
+    400234: Object093
+    400236: Object094
+    400238: Object097
+    400240: Object098
+    400242: Object099
+    400244: Object100
+    400246: Object101
+    400248: Object102
+    400250: Object113
+    400252: Object151
+    400254: pancarte PRIVE
+    400256: Particle View 001
+    400258: Petite serrure
+    400260: Petite serrure001
+    400262: Plafond 004
+    400264: Plafond 02
+    400266: Plafond 03
+    400268: Plafond 04_
+    400270: Plane010
+    400272: Plane010 1
+    400274: Plane017
+    400276: Plane018
+    400278: Plane019
+    400280: Plane021
+    400282: Plane025
+    400284: Plane026
+    400286: Plane027
+    400288: Plane028
+    400290: Plane030
+    400292: Plane031
+    400294: Plane031 1
+    400296: Plane033
+    400298: Plane033 1
+    400300: Plane034
+    400302: Plane034 1
+    400304: Plane035
+    400306: Plane035 1
+    400308: Plane036
+    400310: Plane036 1
+    400312: Plane037
+    400314: Plane037 1
+    400316: Plane038
+    400318: Plane038 1
+    400320: Plane039
+    400322: Plane039 1
+    400324: Plane040
+    400326: Plane040 1
+    400328: Plane041
+    400330: Plane041 1
+    400332: Plane042
+    400334: Plane042 1
+    400336: Plane043
+    400338: Plane043 1
+    400340: Plane044
+    400342: Plane044 1
+    400344: Plane047
+    400346: Plane047 1
+    400348: Plane048
+    400350: Plane053
+    400352: Plane054
+    400354: "Poign\xE9e de porte LOGE"
+    400356: "Poign\xE9e de porte LOGE001"
+    400358: Porte LOGE
+    400360: Porte loge
+    400362: Porte PRIVE
+    400364: Porte PRIVE 1
+    400366: "Sc\xE8ne"
+    400368: Sphere003
+    400370: Sphere004
+    400372: Sphere005
+    400374: Sphere006
+    400376: Sphere007
+    400378: Sphere008
+    400380: Sphere008 1
+    400382: Sphere009
+    400384: Sphere009 1
+    400386: virail004
+    400388: virail004 1
+    400390: Vitrage petite fenetre001
+    400392: Vitrage toute petite fenetre de droite
+    400394: "Voute entr\xE9e ensemble "
+    400396: Voute002
+    2300000: '* Vitrail ST PIERRE'
+    2300002: '* Vitrail ST PIERRE001'
+    2300004: '*Futur vitrail'
+    2300006: '*Futur vitrail001'
+    2300008: '*Futur vitrail002'
+    2300010: '*VITRAIL ST JEAN'
+    2300012: '*VITRAIL ST JEAN001'
+    2300014: '*vITRAIL st jesus christ '
+    2300016: '*Vitrail ST LUC'
+    2300018: '*Vitrail ST LUC001'
+    2300020: '*vITRAIL st MARC'
+    2300022: '*vITRAIL st MARC001'
+    2300024: '*Vitrail ST Mathieu '
+    2300026: '*Vitrail ST Mathieu 001'
+    2300028: '*Vitrail ST PAUL'
+    2300030: '*Vitrail ST PAUL001'
+    2300032: Arch001
+    2300034: Arch003
+    2300036: Arche 05
+    2300038: "Arche fa\xE7ade"
+    2300040: "arche02 fa\xE7ade"
+    2300042: Boiserie ++_MeshPart0
+    2300044: Boiserie ++_MeshPart1
+    2300046: Cylinder011
+    2300048: Cylinder012
+    2300050: "D\xE9tail 006"
+    2300052: "D\xE9tail 01"
+    2300054: "D\xE9tail 02"
+    2300056: "D\xE9tail 03"
+    2300058: "D\xE9tail 04"
+    2300060: "D\xE9tail 05"
+    2300062: EGLISE 1
+    2300064: Fleur
+    2300066: "Fleur entr\xE9e \xE9glise"
+    2300068: Line006
+    2300070: Line007
+    2300072: Line008
+    2300074: Line010
+    2300076: Line028
+    2300078: Line029
+    2300080: Line045
+    2300082: Line066
+    2300084: Moulure 11
+    2300086: Moulure pilier01
+    2300088: Moulure pilier02
+    2300090: Moulure pilier03
+    2300092: Moulure pilier04
+    2300094: Moulure pilier05
+    2300096: Moulure pilier06
+    2300098: Moulure pilier07
+    2300100: Moulure pilier08
+    2300102: Moulure pilier08 1
+    2300104: Moulure pilier09
+    2300106: Object
+    2300108: Object007
+    2300110: Object020
+    2300112: Object023
+    2300114: Object023 1
+    2300116: Object026
+    2300118: Object030
+    2300120: Object031
+    2300122: Object033
+    2300124: Object043
+    2300126: Object045
+    2300128: Object047
+    2300130: Object048
+    2300132: Object050
+    2300134: Object051
+    2300136: Object052
+    2300138: Object053
+    2300140: Object055
+    2300142: Object056
+    2300144: Object058
+    2300146: Object059
+    2300148: Object060
+    2300150: Object061
+    2300152: Object062
+    2300154: Object063
+    2300156: Object064
+    2300158: Object065
+    2300160: Object066
+    2300162: Object067
+    2300164: Object068
+    2300166: Object069
+    2300168: Object070
+    2300170: Object071
+    2300172: Object072
+    2300174: Object073
+    2300176: Object076
+    2300178: Object077
+    2300180: Object078
+    2300182: Object079
+    2300184: Object080
+    2300186: Object081
+    2300188: Object083
+    2300190: Object085
+    2300192: Object087
+    2300194: Object089
+    2300196: Object090
+    2300198: Object091
+    2300200: Object092
+    2300202: Object093
+    2300204: Object094
+    2300206: Object113
+    2300208: Object151
+    2300210: pancarte PRIVE
+    2300212: Plafond 004
+    2300214: Plafond 02
+    2300216: Plafond 03
+    2300218: Plafond 04_
+    2300220: Plane025
+    2300222: Plane026
+    2300224: Plane027
+    2300226: Plane028
+    2300228: Plane030
+    2300230: Plane031
+    2300232: Plane031 1
+    2300234: Plane033
+    2300236: Plane033 1
+    2300238: Plane034
+    2300240: Plane034 1
+    2300242: Plane035
+    2300244: Plane035 1
+    2300246: Plane036
+    2300248: Plane036 1
+    2300250: Plane037
+    2300252: Plane037 1
+    2300254: Plane038
+    2300256: Plane038 1
+    2300258: Plane039
+    2300260: Plane039 1
+    2300262: Plane040
+    2300264: Plane040 1
+    2300266: Plane041
+    2300268: Plane041 1
+    2300270: Plane042
+    2300272: Plane042 1
+    2300274: Plane043
+    2300276: Plane043 1
+    2300278: Plane044
+    2300280: Plane044 1
+    2300282: Plane047
+    2300284: Plane047 1
+    2300286: Plane048
+    2300288: Plane053
+    2300290: Plane054
+    2300292: Sphere004
+    2300294: Sphere005
+    2300296: Sphere006
+    2300298: Sphere007
+    2300300: Sphere008
+    2300302: Sphere008 1
+    2300304: Sphere009
+    2300306: Sphere009 1
+    2300308: virail004
+    2300310: virail004 1
+    2300312: Vitrage petite fenetre001
+    2300314: Voute002
+    3300000: '* Vitrail ST PIERRE'
+    3300002: '* Vitrail ST PIERRE001'
+    3300004: '*Futur vitrail'
+    3300006: '*Futur vitrail001'
+    3300008: '*Futur vitrail002'
+    3300010: '*VITRAIL ST JEAN'
+    3300012: '*VITRAIL ST JEAN001'
+    3300014: '*vITRAIL st jesus christ '
+    3300016: '*Vitrail ST LUC'
+    3300018: '*Vitrail ST LUC001'
+    3300020: '*vITRAIL st MARC'
+    3300022: '*vITRAIL st MARC001'
+    3300024: '*Vitrail ST Mathieu '
+    3300026: '*Vitrail ST Mathieu 001'
+    3300028: '*Vitrail ST PAUL'
+    3300030: '*Vitrail ST PAUL001'
+    3300032: Arch001
+    3300034: Arch003
+    3300036: Arche 05
+    3300038: "Arche fa\xE7ade"
+    3300040: "arche02 fa\xE7ade"
+    3300042: Boiserie ++_MeshPart0
+    3300044: Boiserie ++_MeshPart1
+    3300046: Cylinder011
+    3300048: Cylinder012
+    3300050: "D\xE9tail 006"
+    3300052: "D\xE9tail 01"
+    3300054: "D\xE9tail 02"
+    3300056: "D\xE9tail 03"
+    3300058: "D\xE9tail 04"
+    3300060: "D\xE9tail 05"
+    3300062: EGLISE 1
+    3300064: Fleur
+    3300066: "Fleur entr\xE9e \xE9glise"
+    3300068: Line006
+    3300070: Line007
+    3300072: Line008
+    3300074: Line010
+    3300076: Line028
+    3300078: Line029
+    3300080: Line045
+    3300082: Line066
+    3300084: Moulure 11
+    3300086: Moulure pilier01
+    3300088: Moulure pilier02
+    3300090: Moulure pilier03
+    3300092: Moulure pilier04
+    3300094: Moulure pilier05
+    3300096: Moulure pilier06
+    3300098: Moulure pilier07
+    3300100: Moulure pilier08
+    3300102: Moulure pilier08 1
+    3300104: Moulure pilier09
+    3300106: Object
+    3300108: Object007
+    3300110: Object020
+    3300112: Object023
+    3300114: Object023 1
+    3300116: Object026
+    3300118: Object030
+    3300120: Object031
+    3300122: Object033
+    3300124: Object043
+    3300126: Object045
+    3300128: Object047
+    3300130: Object048
+    3300132: Object050
+    3300134: Object051
+    3300136: Object052
+    3300138: Object053
+    3300140: Object055
+    3300142: Object056
+    3300144: Object058
+    3300146: Object059
+    3300148: Object060
+    3300150: Object061
+    3300152: Object062
+    3300154: Object063
+    3300156: Object064
+    3300158: Object065
+    3300160: Object066
+    3300162: Object067
+    3300164: Object068
+    3300166: Object069
+    3300168: Object070
+    3300170: Object071
+    3300172: Object072
+    3300174: Object073
+    3300176: Object076
+    3300178: Object077
+    3300180: Object078
+    3300182: Object079
+    3300184: Object080
+    3300186: Object081
+    3300188: Object083
+    3300190: Object085
+    3300192: Object087
+    3300194: Object089
+    3300196: Object090
+    3300198: Object091
+    3300200: Object092
+    3300202: Object093
+    3300204: Object094
+    3300206: Object113
+    3300208: Object151
+    3300210: pancarte PRIVE
+    3300212: Plafond 004
+    3300214: Plafond 02
+    3300216: Plafond 03
+    3300218: Plafond 04_
+    3300220: Plane025
+    3300222: Plane026
+    3300224: Plane027
+    3300226: Plane028
+    3300228: Plane030
+    3300230: Plane031
+    3300232: Plane031 1
+    3300234: Plane033
+    3300236: Plane033 1
+    3300238: Plane034
+    3300240: Plane034 1
+    3300242: Plane035
+    3300244: Plane035 1
+    3300246: Plane036
+    3300248: Plane036 1
+    3300250: Plane037
+    3300252: Plane037 1
+    3300254: Plane038
+    3300256: Plane038 1
+    3300258: Plane039
+    3300260: Plane039 1
+    3300262: Plane040
+    3300264: Plane040 1
+    3300266: Plane041
+    3300268: Plane041 1
+    3300270: Plane042
+    3300272: Plane042 1
+    3300274: Plane043
+    3300276: Plane043 1
+    3300278: Plane044
+    3300280: Plane044 1
+    3300282: Plane047
+    3300284: Plane047 1
+    3300286: Plane048
+    3300288: Plane053
+    3300290: Plane054
+    3300292: Sphere004
+    3300294: Sphere005
+    3300296: Sphere006
+    3300298: Sphere007
+    3300300: Sphere008
+    3300302: Sphere008 1
+    3300304: Sphere009
+    3300306: Sphere009 1
+    3300308: virail004
+    3300310: virail004 1
+    3300312: Vitrage petite fenetre001
+    3300314: Voute002
+    4300000: "Arche fa\xE7ade"
+    4300002: "arche02 fa\xE7ade"
+    4300004: EGLISE
+    4300006: Line028
+    4300008: Line029
+    4300010: Object
+    4300012: Object007
+    4300014: Object020
+    4300016: Object023
+    4300018: Object113
+    4300020: Object151
+    4300022: Plane025
+    4300024: Plane026
+    4300026: Plane027
+    4300028: Plane028
+    4300030: Plane030
+    4300032: Plane031
+    4300034: Plane033
+    4300036: Plane034
+    4300038: Plane035
+    4300040: Plane036
+    4300042: Plane037
+    4300044: Plane038
+    4300046: Plane039
+    4300048: Plane040
+    4300050: Plane041
+    4300052: Plane042
+    4300054: Plane043
+    4300056: Plane044
+    4300058: Plane047
+    4300060: Plane053
+    4300062: Plane054
+    4300064: Sphere004
+    4300066: Sphere005
+    4300068: Sphere006
+    4300070: Sphere007
+    4300072: Sphere008
+    4300074: Sphere009
+    4300076: virail004
+    4300078: Vitrage petite fenetre001
+    4300080: Boiserie ++_MeshPart0
+    4300082: Boiserie ++_MeshPart1
+    4300084: '*Vitrail ST LUC'
+    4300086: '*vITRAIL st MARC'
+    4300088: '* Vitrail ST PIERRE'
+    4300090: virail004
+    4300092: '*Vitrail ST Mathieu '
+    4300094: '*Vitrail ST PAUL'
+    4300096: '*vITRAIL st jesus christ '
+    4300098: '*VITRAIL ST JEAN'
+    4300100: Plafond 04_
+    4300102: Plafond 02
+    4300104: Plafond 03
+    4300106: Object023
+    4300108: Object026
+    4300110: Object030
+    4300112: Object031
+    4300114: Object033
+    4300116: Object043
+    4300118: Object045
+    4300120: Object047
+    4300122: Object048
+    4300124: Object050
+    4300126: Object051
+    4300128: Object052
+    4300130: Object053
+    4300132: Object064
+    4300134: Object063
+    4300136: Object058
+    4300138: Object059
+    4300140: Object060
+    4300142: Object061
+    4300144: Object062
+    4300146: Object065
+    4300148: Object055
+    4300150: Object056
+    4300152: Object066
+    4300154: Object067
+    4300156: Object068
+    4300158: Object069
+    4300160: Object070
+    4300162: Object071
+    4300164: Object072
+    4300166: Line045
+    4300168: Object073
+    4300170: Object076
+    4300172: Object077
+    4300174: Object078
+    4300176: Object079
+    4300178: Object080
+    4300180: Plane031
+    4300182: Object085
+    4300184: Object081
+    4300186: Object083
+    4300188: Object089
+    4300190: Object087
+    4300192: Object090
+    4300194: Object091
+    4300196: Object092
+    4300198: Object093
+    4300200: Object094
+    4300202: Cylinder011
+    4300204: Sphere008
+    4300206: Plane033
+    4300208: Plane034
+    4300210: Plane035
+    4300212: Plane036
+    4300214: Plane037
+    4300216: Plane038
+    4300218: Plane039
+    4300220: Plane040
+    4300222: Plane041
+    4300224: Plane042
+    4300226: Plane043
+    4300228: Plane044
+    4300230: Plane047
+    4300232: pancarte PRIVE
+    4300234: Plane048
+    4300236: Cylinder012
+    4300238: Sphere009
+    4300240: Moulure pilier03
+    4300242: Moulure pilier02
+    4300244: Moulure pilier01
+    4300246: Moulure pilier04
+    4300248: Moulure pilier05
+    4300250: Moulure pilier06
+    4300252: Moulure pilier07
+    4300254: Moulure pilier09
+    4300256: Moulure pilier08
+    4300258: Moulure pilier08
+    4300260: Arche 05
+    4300262: "Fleur entr\xE9e \xE9glise"
+    4300264: Moulure 11
+    4300266: Fleur
+    4300268: "D\xE9tail 05"
+    4300270: Line066
+    4300272: Plafond 004
+    4300274: "D\xE9tail 01"
+    4300276: "D\xE9tail 02"
+    4300278: "D\xE9tail 04"
+    4300280: "D\xE9tail 03"
+    4300282: "D\xE9tail 006"
+    4300284: Arch001
+    4300286: Voute002
+    4300288: Line007
+    4300290: Line008
+    4300292: Line010
+    4300294: Line006
+    4300296: '*Futur vitrail'
+    4300298: '*Futur vitrail001'
+    4300300: Arch003
+    4300302: '*Vitrail ST LUC001'
+    4300304: '*Vitrail ST Mathieu 001'
+    4300306: '*Vitrail ST PAUL001'
+    4300308: '* Vitrail ST PIERRE001'
+    4300310: '*vITRAIL st MARC001'
+    4300312: '*VITRAIL ST JEAN001'
+    4300314: '*Futur vitrail002'
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
