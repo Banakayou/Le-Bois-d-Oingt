@@ -166,14 +166,28 @@ public class UIManager : MonoBehaviour {
 			animMinimap.Play("minimapReduce");
 			statusMinimap = true;
             DataManager.instance.Camera_minimap.SetActive(true);
-			DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = true;
-			DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = true;
-		}
+            if (DataManager.instance.MODE_COURANT == DataManager.MODE_PIETON)
+            {
+                DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = true;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = true;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = false;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            }
+            if (DataManager.instance.MODE_COURANT == DataManager.MODE_TOUR)
+            {
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = true;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = true;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = false;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            }
+        }
 		else if (statusMinimap == true)
 		{
 			DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = false;
 			DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = false;
-			animMinimap.Play("minimapEnlarge");
+            DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = false;
+            DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            animMinimap.Play("minimapEnlarge");
 			statusMinimap = false;
             DataManager.instance.Camera_minimap.SetActive(false);
         }

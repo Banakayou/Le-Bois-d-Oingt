@@ -66,15 +66,15 @@ public class Century : MonoBehaviour {
         if (statusCity13s == true)
         {
             Toggle13s();
-            Invoke("Toggle2017", Time.deltaTime * 360);
+            Invoke("Toggle2017", Time.deltaTime * 380);
         }
         else
         {
             Toggle2017();
-            Invoke("Toggle13s", Time.deltaTime * 360);
+            Invoke("Toggle13s", Time.deltaTime * 380);
         }
         inTransition = true;
-        Invoke("StopFlash", Time.deltaTime * 700);
+        Invoke("StopFlash", Time.deltaTime * 760);
 	}
 
     private void StopFlash()

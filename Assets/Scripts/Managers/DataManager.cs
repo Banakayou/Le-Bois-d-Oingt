@@ -129,6 +129,8 @@ public class DataManager : MonoBehaviour
                 Camera_pieton.SetActive(false);
                 Camera_orbitale.SetActive(false);
 
+                UIManager.instance.minimap.SetActive(true);
+                UIManager.instance.animMinimap.enabled = false;
                 ClickToWalk.instance.enabled = false;
                 break;
             default: //MODE_VEILLE
