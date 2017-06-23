@@ -10,7 +10,6 @@ public class DayNightController : MonoBehaviour {
     public Transform m_stars;
 	[HideInInspector] public GameObject[] m_lamps;
     [HideInInspector] public GameObject[] m_flams;
-    public float m_lampsViewDistance = 250f;
 
 	//Système Jour/Nuit
 	[HideInInspector] public bool m_summer; //false = hiver, true = été
@@ -112,7 +111,7 @@ public class DayNightController : MonoBehaviour {
         {
             foreach (GameObject go in m_lamps)
             {
-                go.GetComponentInChildren<Light>().enabled = false;
+                go.GetComponent<Light>().enabled = false;
             }
             foreach (GameObject go in m_flams)
             {
@@ -125,16 +124,7 @@ public class DayNightController : MonoBehaviour {
         {
 			foreach (GameObject go in m_lamps)
             {
-                Vector3 distLamp = go.transform.position - Camera.main.transform.position;//dist de la cam
-				Light lampe = go.GetComponent<Light>();
-				if (distLamp.sqrMagnitude < (m_lampsViewDistance * m_lampsViewDistance))
-				{
-					lampe.enabled = true;
-				}
-				else
-				{
-					lampe.enabled = false;
-				}
+                go.GetComponent<Light>().enabled = true;
             }
             foreach (GameObject go in m_flams)
             {
