@@ -9,7 +9,7 @@ public class DayNightController : MonoBehaviour {
     public Light m_sun;
     public Transform m_stars;
 	[HideInInspector] public GameObject[] m_lamps;
-	public float m_lampsViewDistance = 250f;
+    [HideInInspector] public GameObject[] m_flams;
 
 	//Système Jour/Nuit
 	[HideInInspector] public bool m_summer; //false = hiver, true = été
@@ -24,9 +24,6 @@ public class DayNightController : MonoBehaviour {
 	//Elements du HUD
     [HideInInspector] public GameObject m_horloge;
     [HideInInspector] public Slider m_sunSlider;
-    [HideInInspector] public Image m_logoSaisons;
-    public Sprite m_summerLogo;
-    public Sprite m_winterLogo;
 
 	//Données de calcul
     public AnimationCurve m_summerSourceIntensity;
@@ -65,34 +62,18 @@ public class DayNightController : MonoBehaviour {
                 Destroy(this.gameObject);
             }
         }
-		m_logoSaisons = GameObject.Find("Saison_Button").GetComponent<Image>();
+        m_horloge = GameObject.Find("Horloge");
     }
 
     void Start() {
 		m_sunSlider = UIManager.instance.sunSlider.GetComponent<Slider>();
 		m_lamps = GameObject.FindGameObjectsWithTag("Lampadaire");
-		m_horloge = GameObject.Find("Horloge");
-
-        m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; });
-
-        resetTimeOfDay();
+        m_flams = GameObject.FindGameObjectsWithTag("flam");
+        m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();
+        m_sunSlider.onValueChanged.AddListener(delegate { m_currentTimeOfDay = m_sunSlider.value; UpdateSun(); UpdateClock();});
+        
     }
-
-    void Update() {
-		UpdateSun();
-		UpdateClock ();
-
-        if (DataManager.instance.MODE_COURANT == DataManager.MODE_VEILLE)
-        {
-			m_currentTimeOfDay += (Time.deltaTime / m_secondsInFullDay) * m_timeMultiplier;
-			m_sunSlider.value = m_currentTimeOfDay;
-        }
-
-		if (m_currentTimeOfDay >= 1) {
-			m_currentTimeOfDay = 0;
-		}
-
-    }
+    
 
 	void UpdateClock()
 	{
@@ -130,11 +111,11 @@ public class DayNightController : MonoBehaviour {
         {
             foreach (GameObject go in m_lamps)
             {
-                #if UNITY_ANDROID
-                /* TODO Emissive material instead of light*/
-                #else
-                go.GetComponentInChildren<Light>().enabled = false;
-                #endif
+                go.GetComponent<Light>().enabled = false;
+            }
+            foreach (GameObject go in m_flams)
+            {
+                go.SetActive(false);
             }
             m_stars.gameObject.SetActive(false);
 			//water.GetComponent<WaterMatChanger>().setDayMaterial();
@@ -143,47 +124,15 @@ public class DayNightController : MonoBehaviour {
         {
 			foreach (GameObject go in m_lamps)
             {
-                #if UNITY_ANDROID
-                /* TODO Emissive material instead of light*/
-
-                #else
-                Vector3 distLamp = go.transform.position - Camera.main.transform.position;//dist de la cam
-				Light lampe = go.GetComponentInChildren<Light>();
-				if (distLamp.sqrMagnitude < (m_lampsViewDistance * m_lampsViewDistance))
-				{
-					lampe.enabled = true;
-				}
-				else
-				{
-					lampe.enabled = false;
-				}
-                #endif
+                go.GetComponent<Light>().enabled = true;
+            }
+            foreach (GameObject go in m_flams)
+            {
+                go.SetActive(true);
             }
 			m_stars.gameObject.SetActive(true);
 			//water.GetComponent<WaterMatChanger>().setNightMaterial();
         }
     }
-
-    public void toggleSeason()
-    {
-		m_summer = !m_summer;
-		if (m_summer)
-        {
-			m_logoSaisons.sprite = m_summerLogo;
-        }
-        else
-        {
-			m_logoSaisons.sprite = m_winterLogo;
-        }
-        return;
-    }
-
-	public void resetTimeOfDay()
-	{
-		if (m_summer == false)
-        {
-            toggleSeason();
-        }
-		m_sunSlider.value = m_currentTimeOfDay = m_initialTimeOfDay;
-	}
+    
 }

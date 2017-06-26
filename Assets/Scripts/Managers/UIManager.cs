@@ -60,7 +60,6 @@ public class ScreenShotBridgeIOS
 
 public class UIManager : MonoBehaviour {
     [HideInInspector] public GameObject HUD;
-    [HideInInspector] public GameObject logoClient;
     [HideInInspector] public GameObject imagesNonContractuelles;
 
     [HideInInspector] public GameObject credits;
@@ -72,11 +71,7 @@ public class UIManager : MonoBehaviour {
 	[HideInInspector] public bool statusMinimap;
     
 	[HideInInspector] public GameObject sunSlider;
-
-
-
-    [HideInInspector] public GameObject speedCameraVeillePanel;
-
+    
     string folderPath = "";
 
 	#if UNITY_IOS || UNITY_ANDROID
@@ -121,7 +116,6 @@ public class UIManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         HUD = GameObject.Find("HUD");
-        logoClient = GameObject.Find("Logo_Client");
         imagesNonContractuelles = GameObject.Find("Images non-contractuelles");
 
         credits = GameObject.Find("Credits");
@@ -136,8 +130,6 @@ public class UIManager : MonoBehaviour {
 		statusMinimap = false;
 
         sunSlider = GameObject.Find("Sun_Slider");
-
-        speedCameraVeillePanel = GameObject.Find("SpeedCameraVeille");
 	}
 	
 	// Update is called once per frame
@@ -149,7 +141,6 @@ public class UIManager : MonoBehaviour {
     public void ToggleCredits(bool active)
     {         
         animCredits.enabled = true;
-		animCredits.Stop();
         if (active == true && statusCredits == false)
         {
             HideHUD();
@@ -175,32 +166,33 @@ public class UIManager : MonoBehaviour {
 			animMinimap.Play("minimapReduce");
 			statusMinimap = true;
             DataManager.instance.Camera_minimap.SetActive(true);
-			DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = true;
-			DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = true;
-		}
+            if (DataManager.instance.MODE_COURANT == DataManager.MODE_PIETON)
+            {
+                DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = true;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = true;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = false;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            }
+            if (DataManager.instance.MODE_COURANT == DataManager.MODE_TOUR)
+            {
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = true;
+                DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = true;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = false;
+                DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            }
+        }
 		else if (statusMinimap == true)
 		{
 			DataManager.instance.Camera_pieton.GetComponentInChildren<IconeMinimap>().enabled = false;
 			DataManager.instance.Camera_pieton.GetComponentInChildren<SpriteRenderer>().enabled = false;
-			animMinimap.Play("minimapEnlarge");
+            DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<IconeMinimap>().enabled = false;
+            DataManager.instance.Camera_tour.transform.parent.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            animMinimap.Play("minimapEnlarge");
 			statusMinimap = false;
             DataManager.instance.Camera_minimap.SetActive(false);
         }
 	}
-
-    public void ToggleSunSlider()
-    {
-        sunSlider.SetActive(!sunSlider.activeSelf);
-		if (!sunSlider.activeSelf)
-		{
-			DayNightController.instance.resetTimeOfDay();
-		}
-    }
-
-    public void ToggleSpeedCameraVeillePanel()
-    {
-        speedCameraVeillePanel.SetActive(!speedCameraVeillePanel.activeSelf);
-    }
+    
 
     public void TakeScreenshot()
     {
@@ -246,7 +238,6 @@ public class UIManager : MonoBehaviour {
         {
             HUD.transform.GetChild(i).gameObject.SetActive(false);
         }
-        logoClient.SetActive(true);
         imagesNonContractuelles.SetActive(true);
 
     }
@@ -257,30 +248,13 @@ public class UIManager : MonoBehaviour {
             HUD.transform.GetChild(i).gameObject.SetActive(true);
         }
         credits.SetActive(false);
-        ToggleSpeedCameraVeillePanel();
-        sunSlider.SetActive(false);
-        if (DataManager.instance.MODE_COURANT != DataManager.MODE_PLAN)
-        {
-            DataManager.instance.MesureModeButton.SetActive(false);
-            DataManager.instance.Camera_plan.GetComponent<ModeMesure>().DeleteMesuresButton.SetActive(false);
-        }
-        else if (DataManager.instance.Camera_plan.GetComponent<ModeMesure>().mode_mesure == false || DataManager.instance.Camera_plan.GetComponent<ModeMesure>().nbNodes == 0)
-        {
-            DataManager.instance.Camera_plan.GetComponent<ModeMesure>().DeleteMesuresButton.SetActive(false);
-        }
         
         
         if (DataManager.instance.MODE_COURANT != DataManager.MODE_PIETON)
         {
             minimap.SetActive(false);
         }
-
-        if (DataManager.instance.MODE_COURANT == DataManager.MODE_VEILLE)
-        {
-            ToggleSpeedCameraVeillePanel();
-            DataManager.instance.SunButton.SetActive(false);
-            sunSlider.SetActive(true);
-        }
+        
     }
 }
 

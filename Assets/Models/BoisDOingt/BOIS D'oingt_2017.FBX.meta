@@ -1,0 +1,3547 @@
+fileFormatVersion: 2
+guid: 7fd8332771559f8438cda0f440c7812d
+timeCreated: 1498037495
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '* Vitrail ST PIERRE'
+    100002: '*Futur vitrail'
+    100004: '*Futur vitrail001'
+    100006: '*VITRAIL ST JEAN'
+    100008: '*vITRAIL st jesus christ '
+    100010: '*Vitrail ST LUC'
+    100012: '*vITRAIL st MARC'
+    100014: '*Vitrail ST Mathieu '
+    100016: '*Vitrail ST PAUL'
+    100018: 100
+    100020: 101
+    100022: 102
+    100024: 103
+    100026: 103-attache volet005
+    100028: 103-attache volet006
+    100030: 103-attache volet007
+    100032: 103-attache volet008
+    100034: 103-attache volet009
+    100036: 103-attache volet010
+    100038: 103-attache volet012
+    100040: 103-attache volet013
+    100042: 103-attache volet014
+    100044: 103-attache volet015
+    100046: 103-attache volet016
+    100048: 103-attache volet017
+    100050: 103-attache volet018
+    100052: 103-attache volet019
+    100054: 103-attache volet020
+    100056: 103-attache volet024
+    100058: 103-attache volet026
+    100060: 103-attache volet028
+    100062: 103-attache volet029
+    100064: 103-attache volet030
+    100066: 103-attache volet031
+    100068: 103-attache volet032
+    100070: 103-attache volet033
+    100072: 103-attache volet034
+    100074: 103-attache volet035
+    100076: 103-attache volet036
+    100078: 103-descenteEP
+    100080: "103-goutti\xE8re"
+    100082: 103-persienne001
+    100084: 103-persienne002
+    100086: 103-persienne003
+    100088: 103-persienne006
+    100090: 103-persienne008
+    100092: 103-persienne009
+    100094: 103-persienne011
+    100096: 103-persienne012
+    100098: 103-persienne013
+    100100: 103-persienne014
+    100102: 103-persienne015
+    100104: 103-persienne016
+    100106: 103-persienne017
+    100108: 103-persienne018
+    100110: 103-persienne019
+    100112: 103-persienne020
+    100114: 103-persienne021
+    100116: 103-persienne022
+    100118: 103-persienne023
+    100120: 103-persienne024
+    100122: 103-persienne025
+    100124: 103-persienne032
+    100126: 103-persienne033
+    100128: 103-persienne036
+    100130: 103-persienne037
+    100132: 103-persienne040
+    100134: 103-persienne041
+    100136: 103-persienne042
+    100138: 103-persienne043
+    100140: 103-persienne044
+    100142: 103-persienne045
+    100144: 103-persienne046
+    100146: 103-persienne048
+    100148: 103-persienne049
+    100150: 103-persienne051
+    100152: 103-persienne052
+    100154: "103-poign\xE9e"
+    100156: 103-toiture
+    100158: 103-volet001
+    100160: 103-volet002
+    100162: 103-volet004
+    100164: 103-volet006
+    100166: 103-volet007
+    100168: 103-volet009
+    100170: 103-volet011
+    100172: 103-volet012
+    100174: 103-volet013
+    100176: 103-volet014
+    100178: 103-volet015
+    100180: 103-volet016
+    100182: 103-volet019
+    100184: 103-volet020
+    100186: 103-volet021
+    100188: 103-volet022
+    100190: 103-volet023
+    100192: 103-volet025
+    100194: 103-volet026
+    100196: 103-volet027
+    100198: "103-\xE9cusson"
+    100200: 104
+    100202: 104 1
+    100204: 105
+    100206: 106
+    100208: 107
+    100210: 108
+    100212: 109
+    100214: 110
+    100216: 111
+    100218: 112
+    100220: 113
+    100222: 114
+    100224: 115
+    100226: 116
+    100228: 117
+    100230: 118
+    100232: 119
+    100234: 120
+    100236: 121
+    100238: 122
+    100240: 123
+    100242: 124
+    100244: 125
+    100246: 126
+    100248: 127
+    100250: 128
+    100252: 2017_BAT_103_LOD0
+    100254: 2017_BAT_105_LOD0
+    100256: 2017_BAT_105_LOD0 1
+    100258: 2017_BAT_105_LOD001
+    100260: 2017_BAT_105_LOD002
+    100262: 2017_BAT_105_LOD003
+    100264: 2017_BAT_105_LOD004
+    100266: 2017_BAT_105_LOD005
+    100268: 2017_BAT_105_LOD007
+    100270: 2017_BAT_200_LOD0
+    100272: 2017_BAT_302_LOD0
+    100274: 2017_BAT_302_LOD1
+    100276: 2017_BAT_302_LOD2
+    100278: 2017_BAT_303_LOD0
+    100280: 2017_BAT_303_LOD1
+    100282: 2017_BAT_303_LOD2
+    100284: 2017_BAT_309_LOD0
+    100286: 2017_BAT_309_LOD0 1
+    100288: 2017_BAT_309_LOD005
+    100290: 2017_BAT_309_LOD006
+    100292: 2017_BAT_309_LOD1
+    100294: 2017_BAT_309_LOD1 1
+    100296: 2017_BAT_309_LOD2
+    100298: 2017_BAT_309_LOD2 1
+    100300: 2017_BAT_357_LOD0
+    100302: 2017_BAT_357_LOD1
+    100304: 2017_BAT_357_LOD2
+    100306: 2017_BAT_358_LOD0
+    100308: 2017_BAT_358_LOD1
+    100310: 2017_BAT_358_LOD2
+    100312: 2017_BAT_54_LOD0
+    100314: 2017_BAT_54_LOD0 1
+    100316: 2017_BAT_54_LOD002
+    100318: 2017_BAT_54_LOD003
+    100320: 2017_BAT_54_LOD004
+    100322: 2017_BAT_54_LOD006
+    100324: 2017_BAT_54_LOD1
+    100326: 2017_BAT_54_LOD1 1
+    100328: 2017_BAT_55_LOD0
+    100330: 2017_BAT_55_LOD0 1
+    100332: 2017_BAT_55_LOD004
+    100334: 2017_BAT_55_LOD005
+    100336: 2017_BAT_55_LOD1
+    100338: 2017_BAT_55_LOD1 1
+    100340: 2017_BAT_55_LOD2
+    100342: 2017_BAT_55_LOD3
+    100344: 2017_BAT_56_LOD0
+    100346: 2017_BAT_56_LOD0 1
+    100348: 2017_BAT_56_LOD002
+    100350: 2017_BAT_56_LOD003
+    100352: 2017_BAT_56_LOD004
+    100354: 2017_BAT_56_LOD006
+    100356: 2017_BAT_56_LOD1
+    100358: 2017_BAT_56_LOD1 1
+    100360: 2017_BAT_57_LOD0
+    100362: 2017_BAT_57_LOD0 1
+    100364: 2017_BAT_57_LOD002
+    100366: 2017_BAT_57_LOD003
+    100368: 2017_BAT_57_LOD004
+    100370: 2017_BAT_57_LOD006
+    100372: 2017_BAT_57_LOD1
+    100374: 2017_BAT_57_LOD1 1
+    100376: 2017_BAT_58_LOD0
+    100378: 2017_BAT_58_LOD0 1
+    100380: 2017_BAT_58_LOD004
+    100382: 2017_BAT_58_LOD005
+    100384: 2017_BAT_58_LOD006
+    100386: 2017_BAT_58_LOD1
+    100388: 2017_BAT_58_LOD1 1
+    100390: 2017_BAT_58_LOD2
+    100392: 2017_BAT_58_LOD2 1
+    100394: 2017_BAT_59_LOD0
+    100396: 2017_BAT_59_LOD0 1
+    100398: 2017_BAT_59_LOD001
+    100400: 2017_BAT_59_LOD002
+    100402: 2017_BAT_59_LOD003
+    100404: 2017_BAT_59_LOD004
+    100406: 2017_BAT_59_LOD005
+    100408: 2017_BAT_59_LOD006
+    100410: 2017_BAT_59_LOD007
+    100412: 2017_BAT_60_LOD0
+    100414: 2017_BAT_60_LOD0 1
+    100416: 2017_BAT_60_LOD001
+    100418: 2017_BAT_60_LOD002
+    100420: 2017_BAT_60_LOD003
+    100422: 2017_BAT_60_LOD004
+    100424: 2017_BAT_60_LOD005
+    100426: 2017_BAT_60_LOD006
+    100428: 2017_BAT_60_LOD007
+    100430: 2017_BAT_61_LOD0
+    100432: 2017_BAT_61_LOD0 1
+    100434: 2017_BAT_61_LOD001
+    100436: 2017_BAT_61_LOD002
+    100438: 2017_BAT_61_LOD003
+    100440: 2017_BAT_61_LOD004
+    100442: 2017_BAT_61_LOD005
+    100444: 2017_BAT_61_LOD006
+    100446: 2017_BAT_61_LOD007
+    100448: 2017_BAT_62_LOD0
+    100450: 2017_BAT_62_LOD0 1
+    100452: 2017_BAT_62_LOD1
+    100454: 2017_BAT_62_LOD1 1
+    100456: 2017_BAT_62_LOD2
+    100458: 2017_BAT_65_LOD0
+    100460: 2017_BAT_65_LOD0 1
+    100462: 2017_BAT_65_LOD1
+    100464: 2017_BAT_65_LOD1 1
+    100466: 2017_BAT_65_LOD2
+    100468: 2017_BAT_68_LOD0
+    100470: 2017_BAT_68_LOD0 1
+    100472: 2017_BAT_68_LOD1
+    100474: 2017_BAT_68_LOD1 1
+    100476: 2017_BAT_68_LOD2
+    100478: 2017_BAT_69_LOD0
+    100480: 2017_BAT_69_LOD0 1
+    100482: 2017_BAT_69_LOD1
+    100484: 2017_BAT_69_LOD1 1
+    100486: 2017_BAT_69_LOD2
+    100488: 2017_BAT_70_LOD0
+    100490: 2017_BAT_70_LOD0 1
+    100492: 2017_BAT_70_LOD1
+    100494: 2017_BAT_70_LOD1 1
+    100496: 2017_BAT_70_LOD2
+    100498: 2017_BAT_75_LOD0
+    100500: 2017_BAT_75_LOD0 1
+    100502: 2017_BAT_75_LOD1
+    100504: 2017_BAT_75_LOD1 1
+    100506: 2017_BAT_75_LOD2
+    100508: 2017_BAT_76_LOD0
+    100510: 2017_BAT_76_LOD0 1
+    100512: 2017_BAT_76_LOD1
+    100514: 2017_BAT_76_LOD1 1
+    100516: 2017_BAT_76_LOD2
+    100518: 2017_BAT_77_LOD0
+    100520: 2017_BAT_77_LOD0 1
+    100522: 2017_BAT_77_LOD1
+    100524: 2017_BAT_77_LOD1 1
+    100526: 2017_BAT_77_LOD2
+    100528: 2017_BAT_80_LOD0
+    100530: 2017_BAT_80_LOD0 1
+    100532: 2017_BAT_80_LOD001
+    100534: 2017_BAT_80_LOD002
+    100536: 2017_BAT_80_LOD004
+    100538: 2017_BAT_80_LOD005
+    100540: 2017_BAT_80_LOD006
+    100542: 2017_BAT_80_LOD2
+    100544: 2017_BAT_80_LOD2 1
+    100546: 2017_BAT_81_LOD0
+    100548: 2017_BAT_81_LOD0 1
+    100550: 2017_BAT_81_LOD001
+    100552: 2017_BAT_81_LOD001 1
+    100554: 2017_BAT_81_LOD004
+    100556: 2017_BAT_81_LOD006
+    100558: 2017_BAT_81_LOD2
+    100560: 2017_BAT_81_LOD2 1
+    100562: 2017_BAT_82_LOD0
+    100564: 2017_BAT_82_LOD1
+    100566: 2017_BAT_82_LOD2
+    100568: 2017_BAT_84_LOD0
+    100570: 2017_BAT_85_LOD0
+    100572: 2017_BAT_86_LOD0
+    100574: 2017_BAT_87_LOD0
+    100576: 2017_BAT_87_LOD1
+    100578: 2017_BAT_87_LOD2
+    100580: 2017_BAT_88/89_LOD0
+    100582: 2017_BAT_88/89_LOD1
+    100584: 2017_BAT_88/89_LOD2
+    100586: 2017_BAT_90_LOD0
+    100588: 2017_BAT_90_LOD1
+    100590: 2017_BAT_90_LOD2
+    100592: 2017_BAT_91/92_LOD0
+    100594: 2017_BAT_91/92_LOD1
+    100596: 2017_BAT_91/92_LOD2
+    100598: 2017_BAT_SOL
+    100600: 2017_BAT_SOL 1
+    100602: 310
+    100604: 310-descenteEP
+    100606: "310-goutti\xE8re"
+    100608: 310-persienne001
+    100610: 310-persienne002
+    100612: 310-persienne003
+    100614: 310-persienne006
+    100616: 310-persienne007
+    100618: 310-persienne008
+    100620: 310-persienne011
+    100622: 310-persienne012
+    100624: "310-poign\xE9e"
+    100626: 310-toiture
+    100628: 310-toiture 1
+    100630: 359
+    100632: 360
+    100634: 65-toiture
+    100636: 71
+    100638: 72
+    100640: 73
+    100642: 74
+    100644: 84
+    100646: 84-boite aux lettres
+    100648: 84-descenteEP
+    100650: 84-escalier
+    100652: 84-garde corps
+    100654: "84-goutti\xE8re"
+    100656: 84-persienne001
+    100658: 84-persienne002
+    100660: 84-persienne003
+    100662: 84-persienne004
+    100664: 84-persienne005
+    100666: 84-persienne006
+    100668: "84-poign\xE9e"
+    100670: 84-toiture
+    100672: 85
+    100674: 85-descenteEP
+    100676: 85-garde corps
+    100678: 85-garde corps001
+    100680: 85-garde corps002
+    100682: 85-garde corps003
+    100684: 85-garde corps004
+    100686: 85-garde corps005
+    100688: "85-goutti\xE8re"
+    100690: "85-poign\xE9e"
+    100692: 85-toiture
+    100694: 85-volet001
+    100696: 85-volet002
+    100698: 85-volet003
+    100700: 85-volet004
+    100702: 85-volet005
+    100704: 85-volet006
+    100706: 86
+    100708: 86-boite aux lettres001
+    100710: 86-boite aux lettres002
+    100712: 86-boite aux lettres003
+    100714: 86-boite aux lettres004
+    100716: 86-corniche
+    100718: 86-corniche001
+    100720: 86-corniche002
+    100722: 86-corniche003
+    100724: 86-corniche004
+    100726: 86-corniche005
+    100728: 86-corniche006
+    100730: 86-descenteEP
+    100732: 86-encadrement001
+    100734: 86-encadrement002
+    100736: 86-escalier001
+    100738: 86-escalier002
+    100740: 86-ferronerie
+    100742: 86-ferronerie003
+    100744: 86-ferronerie004
+    100746: 86-ferronnerie pt
+    100748: 86-ferronnerie pt001
+    100750: 86-ferronnerie pt002
+    100752: 86-garde corps001
+    100754: 86-garde corps001 1
+    100756: 86-garde corps002
+    100758: 86-garde corps002 1
+    100760: 86-garde corps003
+    100762: 86-garde corps003 1
+    100764: 86-garde corps004
+    100766: 86-garde corps004 1
+    100768: 86-garde corps005
+    100770: 86-garde corps006
+    100772: 86-garde corps007
+    100774: 86-garde corps007 1
+    100776: 86-garde corps008
+    100778: 86-garde corps009
+    100780: 86-garde corps010
+    100782: 86-garde corps010 1
+    100784: 86-garde corps011
+    100786: 86-garde corps014
+    100788: 86-garde corps015
+    100790: 86-garde corps018
+    100792: "86-goutti\xE8re"
+    100794: "86-poign\xE9e"
+    100796: "86-poign\xE9e001"
+    100798: "86-poign\xE9e002"
+    100800: "86-poign\xE9e003"
+    100802: 86-toiture
+    100804: 86-volet
+    100806: 86-volet 1
+    100808: 86-volet001
+    100810: 86-volet001 1
+    100812: 86-volet002
+    100814: 86-volet002 1
+    100816: 86-volet003
+    100818: 86-volet004
+    100820: 86-volet004 1
+    100822: 86-volet005
+    100824: 86-volet005 1
+    100826: 86-volet006
+    100828: 86-volet007
+    100830: 86-volet007 1
+    100832: 86-volet008
+    100834: 86-volet008 1
+    100836: 86-volet009
+    100838: 86-volet010
+    100840: 86-volet010 1
+    100842: 86-volet011
+    100844: 86-volet011 1
+    100846: 86-volet012
+    100848: 86-volet013
+    100850: 86-volet014
+    100852: 86-volet016
+    100854: 86-volet017
+    100856: 86-volet019
+    100858: 86-volet020
+    100860: 86-volet022
+    100862: 86-volet023
+    100864: 86-volet025
+    100866: 86-volet026
+    100868: 86-volet028
+    100870: 86-volet030
+    100872: 86-volet031
+    100874: 86-volet033
+    100876: 86-volet034
+    100878: 86-volet036
+    100880: 86-volet037
+    100882: 93
+    100884: 93-descenteEP
+    100886: "93-goutti\xE8re"
+    100888: 93-grille
+    100890: 93-grille001
+    100892: 93-toiture
+    100894: 93-volet
+    100896: 94
+    100898: 95
+    100900: 96
+    100902: 97
+    100904: 98
+    100906: 99
+    100908: "Arche fa\xE7ade"
+    100910: "arche02 fa\xE7ade"
+    100912: BANC
+    100914: baque fleurs001
+    100916: baque fleurs002
+    100918: baque fleurs003
+    100920: baque fleurs004
+    100922: baque fleurs005
+    100924: baque fleurs006
+    100926: baque fleurs007
+    100928: baque fleurs008
+    100930: baque fleurs009
+    100932: baque fleurs010
+    100934: baque001
+    100936: baque002
+    100938: baque003
+    100940: baque004
+    100942: baque005
+    100944: BAT_302_LOD0
+    100946: BAT_302_LOD1
+    100948: BAT_302_LOD2
+    100950: BAT_303_LOD0
+    100952: BAT_303_LOD1
+    100954: BAT_303_LOD2
+    100956: BAT_357_LOD0
+    100958: BAT_357_LOD1
+    100960: BAT_357_LOD2
+    100962: BAT_358_LOD0
+    100964: BAT_358_LOD1
+    100966: BAT_358_LOD2
+    100968: BAT_82_LOD0
+    100970: BAT_82_LOD1
+    100972: BAT_82_LOD2
+    100974: BAT_87_LOD0
+    100976: BAT_87_LOD1
+    100978: BAT_87_LOD2
+    100980: BAT_88/89_ESCALIER_LOD0
+    100982: BAT_88/89_ESCALIER_LOD1
+    100984: BAT_88/89_ESCALIER_LOD2
+    100986: BAT_88/89_LOD0
+    100988: BAT_88/89_LOD1
+    100990: BAT_88/89_LOD2
+    100992: BAT_90_LOD0
+    100994: BAT_90_LOD1
+    100996: BAT_90_LOD2
+    100998: BAT_90_PORCHE_LOD0
+    101000: BAT_90_PORCHE_LOD1
+    101002: BAT_90_PORCHE_LOD2
+    101004: BAT_91/92_LOD0
+    101006: BAT_91/92_LOD1
+    101008: BAT_91/92_LOD2
+    101010: BAT_GARDE_CORPS_77
+    101012: BAT_GOUTTIERE_002
+    101014: BAT_GOUTTIERE_01
+    101016: BAT_REBORD_TOIT_01
+    101018: BAT_REBORD_TOIT_02
+    101020: BAT_REBORD_TOIT_03
+    101022: BAT_REBORD_TOIT_04
+    101024: BAT_REBORD_TOIT_05
+    101026: BAT_REBORD_TOIT_06
+    101028: Block:N
+    101030: Block:N 1
+    101032: //RootNode
+    101034: Box001
+    101036: Box002
+    101038: Box003
+    101040: Box004
+    101042: Box005
+    101044: Box008
+    101046: Box009
+    101048: Box010
+    101050: Box011
+    101052: Box012
+    101054: Box013
+    101056: Box014
+    101058: Box015
+    101060: Box016
+    101062: Box017
+    101064: Box018
+    101066: Box019
+    101068: Box020
+    101070: Box021
+    101072: Box022
+    101074: Box023
+    101076: Box024
+    101078: Box025
+    101080: Box026
+    101082: Box027
+    101084: Box028
+    101086: Box029
+    101088: Box030
+    101090: Box034
+    101092: Box035
+    101094: Box036
+    101096: Box037
+    101098: Box038
+    101100: Box039
+    101102: Box040
+    101104: Box041
+    101106: Box042
+    101108: Box043
+    101110: Box044
+    101112: Box045
+    101114: Box046
+    101116: Box047
+    101118: Box062
+    101120: Box098
+    101122: Box099
+    101124: Box100
+    101126: Box101
+    101128: Box103
+    101130: Box122
+    101132: Box123
+    101134: Box124
+    101136: Box125
+    101138: Box126
+    101140: Box127
+    101142: Box128
+    101144: Box129
+    101146: Box130
+    101148: Box131
+    101150: Box132
+    101152: Box133
+    101154: Box134
+    101156: Box135
+    101158: Box136
+    101160: Box137
+    101162: Circle008
+    101164: Circle009
+    101166: Circle010
+    101168: Circle011
+    101170: Circle012
+    101172: Circle013
+    101174: Circle014
+    101176: Circle015
+    101178: Circle016
+    101180: Circle017
+    101182: Circle018
+    101184: Circle019
+    101186: Circle020
+    101188: Circle021
+    101190: Circle022
+    101192: Circle023
+    101194: Circle024
+    101196: Circle025
+    101198: Circle026
+    101200: Circle027
+    101202: Circle028
+    101204: Circle029
+    101206: Circle030
+    101208: Circle031
+    101210: Circle033
+    101212: Circle034
+    101214: Circle035
+    101216: Circle037
+    101218: Cylinder018
+    101220: Cylinder030
+    101222: Cylinder031
+    101224: Cylinder032
+    101226: Cylinder033
+    101228: Cylinder034
+    101230: Cylinder035
+    101232: Cylinder036
+    101234: Cylinder037
+    101236: Cylinder038
+    101238: EGLISE
+    101240: EGLISE 1
+    101242: Ensemble lampadaire005
+    101244: Ensemble lampadaire006
+    101246: "g\xE9ranium"
+    101248: lampadaire
+    101250: Lampadaire 003
+    101252: Lampadaire 006
+    101254: Lampadaire 009
+    101256: Lampadaire 011
+    101258: lampadaire002
+    101260: lampadaire005
+    101262: lampadaire008
+    101264: lampadaire010
+    101266: Line007
+    101268: Line008
+    101270: Line009
+    101272: Line010
+    101274: Line011
+    101276: Line011 1
+    101278: Line012
+    101280: Line013
+    101282: Line014
+    101284: Line015
+    101286: Line015 1
+    101288: Line016
+    101290: Line017
+    101292: Line017 1
+    101294: Line018
+    101296: Line019
+    101298: Line020
+    101300: Line021
+    101302: Line022
+    101304: Line023
+    101306: Line025
+    101308: Line026
+    101310: Line027
+    101312: Line028
+    101314: Line028 1
+    101316: Line029
+    101318: Line029 1
+    101320: Line030
+    101322: Line031
+    101324: Line032
+    101326: Line033
+    101328: Line034
+    101330: Line035
+    101332: Line036
+    101334: Line036 1
+    101336: Line037
+    101338: Line038
+    101340: Line039
+    101342: Line040
+    101344: Line041
+    101346: Line042
+    101348: Line043
+    101350: Line044
+    101352: Line045
+    101354: Line046
+    101356: Line047
+    101358: Line048
+    101360: Line049
+    101362: Line050
+    101364: Line051
+    101366: Line052
+    101368: Line053
+    101370: Line054
+    101372: Line055
+    101374: Line056
+    101376: Line057
+    101378: Line058
+    101380: Line059
+    101382: Line060
+    101384: Line061
+    101386: Line062
+    101388: Line063
+    101390: Line064
+    101392: Line065
+    101394: Line066
+    101396: Line067
+    101398: Line068
+    101400: Line077
+    101402: Line078
+    101404: obj_019
+    101406: obj_020
+    101408: obj_021
+    101410: obj_022
+    101412: obj_023
+    101414: obj_024
+    101416: obj_025
+    101418: obj_026
+    101420: obj_043
+    101422: obj_044
+    101424: obj_045
+    101426: obj_046
+    101428: obj_047
+    101430: obj_048
+    101432: obj_049
+    101434: obj_050
+    101436: obj_067
+    101438: obj_068
+    101440: obj_069
+    101442: obj_070
+    101444: obj_071
+    101446: obj_072
+    101448: obj_073
+    101450: obj_074
+    101452: obj_083
+    101454: obj_084
+    101456: obj_085
+    101458: obj_086
+    101460: obj_087
+    101462: obj_088
+    101464: obj_089
+    101466: Object
+    101468: Object005
+    101470: Object006
+    101472: Object007
+    101474: Object010
+    101476: Object012
+    101478: Object013
+    101480: Object014
+    101482: Object020
+    101484: Object023
+    101486: Object113
+    101488: Object151
+    101490: Object152
+    101492: Objet02
+    101494: Plan02
+    101496: planche banc001
+    101498: planche banc002
+    101500: planche banc003
+    101502: planche banc004
+    101504: planche banc005
+    101506: Plane003
+    101508: Plane003 1
+    101510: Plane004
+    101512: Plane005
+    101514: Plane006
+    101516: Plane006 1
+    101518: Plane007
+    101520: Plane010
+    101522: Plane010 1
+    101524: Plane017
+    101526: Plane018
+    101528: Plane019
+    101530: Plane021
+    101532: Plane025
+    101534: Plane026
+    101536: Plane027
+    101538: Plane028
+    101540: Plane030
+    101542: Plane031
+    101544: Plane033
+    101546: Plane034
+    101548: Plane035
+    101550: Plane036
+    101552: Plane037
+    101554: Plane038
+    101556: Plane039
+    101558: Plane040
+    101560: Plane041
+    101562: Plane042
+    101564: Plane043
+    101566: Plane044
+    101568: Plane047
+    101570: Plane053
+    101572: Plane054
+    101574: Plane055
+    101576: Plane057
+    101578: Plane_TERRAIN
+    101580: POIGNET_PORTE
+    101582: Sphere003
+    101584: Sphere004
+    101586: Sphere005
+    101588: Sphere006
+    101590: Sphere007
+    101592: Sphere008
+    101594: Sphere009
+    101596: virail004
+    101598: Vitrage petite fenetre001
+    101600: VRayProxy_objArch31_056_obj_00
+    101602: VRayProxy_objArch31_056_obj_01
+    101604: VRayProxy_objArch31_056_obj_02
+    101606: VRayProxy_objArch31_056_obj_03
+    101608: zer006
+    400000: '* Vitrail ST PIERRE'
+    400002: '*Futur vitrail'
+    400004: '*Futur vitrail001'
+    400006: '*VITRAIL ST JEAN'
+    400008: '*vITRAIL st jesus christ '
+    400010: '*Vitrail ST LUC'
+    400012: '*vITRAIL st MARC'
+    400014: '*Vitrail ST Mathieu '
+    400016: '*Vitrail ST PAUL'
+    400018: 100
+    400020: 101
+    400022: 102
+    400024: 103
+    400026: 103-attache volet005
+    400028: 103-attache volet006
+    400030: 103-attache volet007
+    400032: 103-attache volet008
+    400034: 103-attache volet009
+    400036: 103-attache volet010
+    400038: 103-attache volet012
+    400040: 103-attache volet013
+    400042: 103-attache volet014
+    400044: 103-attache volet015
+    400046: 103-attache volet016
+    400048: 103-attache volet017
+    400050: 103-attache volet018
+    400052: 103-attache volet019
+    400054: 103-attache volet020
+    400056: 103-attache volet024
+    400058: 103-attache volet026
+    400060: 103-attache volet028
+    400062: 103-attache volet029
+    400064: 103-attache volet030
+    400066: 103-attache volet031
+    400068: 103-attache volet032
+    400070: 103-attache volet033
+    400072: 103-attache volet034
+    400074: 103-attache volet035
+    400076: 103-attache volet036
+    400078: 103-descenteEP
+    400080: "103-goutti\xE8re"
+    400082: 103-persienne001
+    400084: 103-persienne002
+    400086: 103-persienne003
+    400088: 103-persienne006
+    400090: 103-persienne008
+    400092: 103-persienne009
+    400094: 103-persienne011
+    400096: 103-persienne012
+    400098: 103-persienne013
+    400100: 103-persienne014
+    400102: 103-persienne015
+    400104: 103-persienne016
+    400106: 103-persienne017
+    400108: 103-persienne018
+    400110: 103-persienne019
+    400112: 103-persienne020
+    400114: 103-persienne021
+    400116: 103-persienne022
+    400118: 103-persienne023
+    400120: 103-persienne024
+    400122: 103-persienne025
+    400124: 103-persienne032
+    400126: 103-persienne033
+    400128: 103-persienne036
+    400130: 103-persienne037
+    400132: 103-persienne040
+    400134: 103-persienne041
+    400136: 103-persienne042
+    400138: 103-persienne043
+    400140: 103-persienne044
+    400142: 103-persienne045
+    400144: 103-persienne046
+    400146: 103-persienne048
+    400148: 103-persienne049
+    400150: 103-persienne051
+    400152: 103-persienne052
+    400154: "103-poign\xE9e"
+    400156: 103-toiture
+    400158: 103-volet001
+    400160: 103-volet002
+    400162: 103-volet004
+    400164: 103-volet006
+    400166: 103-volet007
+    400168: 103-volet009
+    400170: 103-volet011
+    400172: 103-volet012
+    400174: 103-volet013
+    400176: 103-volet014
+    400178: 103-volet015
+    400180: 103-volet016
+    400182: 103-volet019
+    400184: 103-volet020
+    400186: 103-volet021
+    400188: 103-volet022
+    400190: 103-volet023
+    400192: 103-volet025
+    400194: 103-volet026
+    400196: 103-volet027
+    400198: "103-\xE9cusson"
+    400200: 104
+    400202: 104 1
+    400204: 105
+    400206: 106
+    400208: 107
+    400210: 108
+    400212: 109
+    400214: 110
+    400216: 111
+    400218: 112
+    400220: 113
+    400222: 114
+    400224: 115
+    400226: 116
+    400228: 117
+    400230: 118
+    400232: 119
+    400234: 120
+    400236: 121
+    400238: 122
+    400240: 123
+    400242: 124
+    400244: 125
+    400246: 126
+    400248: 127
+    400250: 128
+    400252: 2017_BAT_103_LOD0
+    400254: 2017_BAT_105_LOD0
+    400256: 2017_BAT_105_LOD0 1
+    400258: 2017_BAT_105_LOD001
+    400260: 2017_BAT_105_LOD002
+    400262: 2017_BAT_105_LOD003
+    400264: 2017_BAT_105_LOD004
+    400266: 2017_BAT_105_LOD005
+    400268: 2017_BAT_105_LOD007
+    400270: 2017_BAT_200_LOD0
+    400272: 2017_BAT_302_LOD0
+    400274: 2017_BAT_302_LOD1
+    400276: 2017_BAT_302_LOD2
+    400278: 2017_BAT_303_LOD0
+    400280: 2017_BAT_303_LOD1
+    400282: 2017_BAT_303_LOD2
+    400284: 2017_BAT_309_LOD0
+    400286: 2017_BAT_309_LOD0 1
+    400288: 2017_BAT_309_LOD005
+    400290: 2017_BAT_309_LOD006
+    400292: 2017_BAT_309_LOD1
+    400294: 2017_BAT_309_LOD1 1
+    400296: 2017_BAT_309_LOD2
+    400298: 2017_BAT_309_LOD2 1
+    400300: 2017_BAT_357_LOD0
+    400302: 2017_BAT_357_LOD1
+    400304: 2017_BAT_357_LOD2
+    400306: 2017_BAT_358_LOD0
+    400308: 2017_BAT_358_LOD1
+    400310: 2017_BAT_358_LOD2
+    400312: 2017_BAT_54_LOD0
+    400314: 2017_BAT_54_LOD0 1
+    400316: 2017_BAT_54_LOD002
+    400318: 2017_BAT_54_LOD003
+    400320: 2017_BAT_54_LOD004
+    400322: 2017_BAT_54_LOD006
+    400324: 2017_BAT_54_LOD1
+    400326: 2017_BAT_54_LOD1 1
+    400328: 2017_BAT_55_LOD0
+    400330: 2017_BAT_55_LOD0 1
+    400332: 2017_BAT_55_LOD004
+    400334: 2017_BAT_55_LOD005
+    400336: 2017_BAT_55_LOD1
+    400338: 2017_BAT_55_LOD1 1
+    400340: 2017_BAT_55_LOD2
+    400342: 2017_BAT_55_LOD3
+    400344: 2017_BAT_56_LOD0
+    400346: 2017_BAT_56_LOD0 1
+    400348: 2017_BAT_56_LOD002
+    400350: 2017_BAT_56_LOD003
+    400352: 2017_BAT_56_LOD004
+    400354: 2017_BAT_56_LOD006
+    400356: 2017_BAT_56_LOD1
+    400358: 2017_BAT_56_LOD1 1
+    400360: 2017_BAT_57_LOD0
+    400362: 2017_BAT_57_LOD0 1
+    400364: 2017_BAT_57_LOD002
+    400366: 2017_BAT_57_LOD003
+    400368: 2017_BAT_57_LOD004
+    400370: 2017_BAT_57_LOD006
+    400372: 2017_BAT_57_LOD1
+    400374: 2017_BAT_57_LOD1 1
+    400376: 2017_BAT_58_LOD0
+    400378: 2017_BAT_58_LOD0 1
+    400380: 2017_BAT_58_LOD004
+    400382: 2017_BAT_58_LOD005
+    400384: 2017_BAT_58_LOD006
+    400386: 2017_BAT_58_LOD1
+    400388: 2017_BAT_58_LOD1 1
+    400390: 2017_BAT_58_LOD2
+    400392: 2017_BAT_58_LOD2 1
+    400394: 2017_BAT_59_LOD0
+    400396: 2017_BAT_59_LOD0 1
+    400398: 2017_BAT_59_LOD001
+    400400: 2017_BAT_59_LOD002
+    400402: 2017_BAT_59_LOD003
+    400404: 2017_BAT_59_LOD004
+    400406: 2017_BAT_59_LOD005
+    400408: 2017_BAT_59_LOD006
+    400410: 2017_BAT_59_LOD007
+    400412: 2017_BAT_60_LOD0
+    400414: 2017_BAT_60_LOD0 1
+    400416: 2017_BAT_60_LOD001
+    400418: 2017_BAT_60_LOD002
+    400420: 2017_BAT_60_LOD003
+    400422: 2017_BAT_60_LOD004
+    400424: 2017_BAT_60_LOD005
+    400426: 2017_BAT_60_LOD006
+    400428: 2017_BAT_60_LOD007
+    400430: 2017_BAT_61_LOD0
+    400432: 2017_BAT_61_LOD0 1
+    400434: 2017_BAT_61_LOD001
+    400436: 2017_BAT_61_LOD002
+    400438: 2017_BAT_61_LOD003
+    400440: 2017_BAT_61_LOD004
+    400442: 2017_BAT_61_LOD005
+    400444: 2017_BAT_61_LOD006
+    400446: 2017_BAT_61_LOD007
+    400448: 2017_BAT_62_LOD0
+    400450: 2017_BAT_62_LOD0 1
+    400452: 2017_BAT_62_LOD1
+    400454: 2017_BAT_62_LOD1 1
+    400456: 2017_BAT_62_LOD2
+    400458: 2017_BAT_65_LOD0
+    400460: 2017_BAT_65_LOD0 1
+    400462: 2017_BAT_65_LOD1
+    400464: 2017_BAT_65_LOD1 1
+    400466: 2017_BAT_65_LOD2
+    400468: 2017_BAT_68_LOD0
+    400470: 2017_BAT_68_LOD0 1
+    400472: 2017_BAT_68_LOD1
+    400474: 2017_BAT_68_LOD1 1
+    400476: 2017_BAT_68_LOD2
+    400478: 2017_BAT_69_LOD0
+    400480: 2017_BAT_69_LOD0 1
+    400482: 2017_BAT_69_LOD1
+    400484: 2017_BAT_69_LOD1 1
+    400486: 2017_BAT_69_LOD2
+    400488: 2017_BAT_70_LOD0
+    400490: 2017_BAT_70_LOD0 1
+    400492: 2017_BAT_70_LOD1
+    400494: 2017_BAT_70_LOD1 1
+    400496: 2017_BAT_70_LOD2
+    400498: 2017_BAT_75_LOD0
+    400500: 2017_BAT_75_LOD0 1
+    400502: 2017_BAT_75_LOD1
+    400504: 2017_BAT_75_LOD1 1
+    400506: 2017_BAT_75_LOD2
+    400508: 2017_BAT_76_LOD0
+    400510: 2017_BAT_76_LOD0 1
+    400512: 2017_BAT_76_LOD1
+    400514: 2017_BAT_76_LOD1 1
+    400516: 2017_BAT_76_LOD2
+    400518: 2017_BAT_77_LOD0
+    400520: 2017_BAT_77_LOD0 1
+    400522: 2017_BAT_77_LOD1
+    400524: 2017_BAT_77_LOD1 1
+    400526: 2017_BAT_77_LOD2
+    400528: 2017_BAT_80_LOD0
+    400530: 2017_BAT_80_LOD0 1
+    400532: 2017_BAT_80_LOD001
+    400534: 2017_BAT_80_LOD002
+    400536: 2017_BAT_80_LOD004
+    400538: 2017_BAT_80_LOD005
+    400540: 2017_BAT_80_LOD006
+    400542: 2017_BAT_80_LOD2
+    400544: 2017_BAT_80_LOD2 1
+    400546: 2017_BAT_81_LOD0
+    400548: 2017_BAT_81_LOD0 1
+    400550: 2017_BAT_81_LOD001
+    400552: 2017_BAT_81_LOD001 1
+    400554: 2017_BAT_81_LOD004
+    400556: 2017_BAT_81_LOD006
+    400558: 2017_BAT_81_LOD2
+    400560: 2017_BAT_81_LOD2 1
+    400562: 2017_BAT_82_LOD0
+    400564: 2017_BAT_82_LOD1
+    400566: 2017_BAT_82_LOD2
+    400568: 2017_BAT_84_LOD0
+    400570: 2017_BAT_85_LOD0
+    400572: 2017_BAT_86_LOD0
+    400574: 2017_BAT_87_LOD0
+    400576: 2017_BAT_87_LOD1
+    400578: 2017_BAT_87_LOD2
+    400580: 2017_BAT_88/89_LOD0
+    400582: 2017_BAT_88/89_LOD1
+    400584: 2017_BAT_88/89_LOD2
+    400586: 2017_BAT_90_LOD0
+    400588: 2017_BAT_90_LOD1
+    400590: 2017_BAT_90_LOD2
+    400592: 2017_BAT_91/92_LOD0
+    400594: 2017_BAT_91/92_LOD1
+    400596: 2017_BAT_91/92_LOD2
+    400598: 2017_BAT_SOL
+    400600: 2017_BAT_SOL 1
+    400602: 310
+    400604: 310-descenteEP
+    400606: "310-goutti\xE8re"
+    400608: 310-persienne001
+    400610: 310-persienne002
+    400612: 310-persienne003
+    400614: 310-persienne006
+    400616: 310-persienne007
+    400618: 310-persienne008
+    400620: 310-persienne011
+    400622: 310-persienne012
+    400624: "310-poign\xE9e"
+    400626: 310-toiture
+    400628: 310-toiture 1
+    400630: 359
+    400632: 360
+    400634: 65-toiture
+    400636: 71
+    400638: 72
+    400640: 73
+    400642: 74
+    400644: 84
+    400646: 84-boite aux lettres
+    400648: 84-descenteEP
+    400650: 84-escalier
+    400652: 84-garde corps
+    400654: "84-goutti\xE8re"
+    400656: 84-persienne001
+    400658: 84-persienne002
+    400660: 84-persienne003
+    400662: 84-persienne004
+    400664: 84-persienne005
+    400666: 84-persienne006
+    400668: "84-poign\xE9e"
+    400670: 84-toiture
+    400672: 85
+    400674: 85-descenteEP
+    400676: 85-garde corps
+    400678: 85-garde corps001
+    400680: 85-garde corps002
+    400682: 85-garde corps003
+    400684: 85-garde corps004
+    400686: 85-garde corps005
+    400688: "85-goutti\xE8re"
+    400690: "85-poign\xE9e"
+    400692: 85-toiture
+    400694: 85-volet001
+    400696: 85-volet002
+    400698: 85-volet003
+    400700: 85-volet004
+    400702: 85-volet005
+    400704: 85-volet006
+    400706: 86
+    400708: 86-boite aux lettres001
+    400710: 86-boite aux lettres002
+    400712: 86-boite aux lettres003
+    400714: 86-boite aux lettres004
+    400716: 86-corniche
+    400718: 86-corniche001
+    400720: 86-corniche002
+    400722: 86-corniche003
+    400724: 86-corniche004
+    400726: 86-corniche005
+    400728: 86-corniche006
+    400730: 86-descenteEP
+    400732: 86-encadrement001
+    400734: 86-encadrement002
+    400736: 86-escalier001
+    400738: 86-escalier002
+    400740: 86-ferronerie
+    400742: 86-ferronerie003
+    400744: 86-ferronerie004
+    400746: 86-ferronnerie pt
+    400748: 86-ferronnerie pt001
+    400750: 86-ferronnerie pt002
+    400752: 86-garde corps001
+    400754: 86-garde corps001 1
+    400756: 86-garde corps002
+    400758: 86-garde corps002 1
+    400760: 86-garde corps003
+    400762: 86-garde corps003 1
+    400764: 86-garde corps004
+    400766: 86-garde corps004 1
+    400768: 86-garde corps005
+    400770: 86-garde corps006
+    400772: 86-garde corps007
+    400774: 86-garde corps007 1
+    400776: 86-garde corps008
+    400778: 86-garde corps009
+    400780: 86-garde corps010
+    400782: 86-garde corps010 1
+    400784: 86-garde corps011
+    400786: 86-garde corps014
+    400788: 86-garde corps015
+    400790: 86-garde corps018
+    400792: "86-goutti\xE8re"
+    400794: "86-poign\xE9e"
+    400796: "86-poign\xE9e001"
+    400798: "86-poign\xE9e002"
+    400800: "86-poign\xE9e003"
+    400802: 86-toiture
+    400804: 86-volet
+    400806: 86-volet 1
+    400808: 86-volet001
+    400810: 86-volet001 1
+    400812: 86-volet002
+    400814: 86-volet002 1
+    400816: 86-volet003
+    400818: 86-volet004
+    400820: 86-volet004 1
+    400822: 86-volet005
+    400824: 86-volet005 1
+    400826: 86-volet006
+    400828: 86-volet007
+    400830: 86-volet007 1
+    400832: 86-volet008
+    400834: 86-volet008 1
+    400836: 86-volet009
+    400838: 86-volet010
+    400840: 86-volet010 1
+    400842: 86-volet011
+    400844: 86-volet011 1
+    400846: 86-volet012
+    400848: 86-volet013
+    400850: 86-volet014
+    400852: 86-volet016
+    400854: 86-volet017
+    400856: 86-volet019
+    400858: 86-volet020
+    400860: 86-volet022
+    400862: 86-volet023
+    400864: 86-volet025
+    400866: 86-volet026
+    400868: 86-volet028
+    400870: 86-volet030
+    400872: 86-volet031
+    400874: 86-volet033
+    400876: 86-volet034
+    400878: 86-volet036
+    400880: 86-volet037
+    400882: 93
+    400884: 93-descenteEP
+    400886: "93-goutti\xE8re"
+    400888: 93-grille
+    400890: 93-grille001
+    400892: 93-toiture
+    400894: 93-volet
+    400896: 94
+    400898: 95
+    400900: 96
+    400902: 97
+    400904: 98
+    400906: 99
+    400908: "Arche fa\xE7ade"
+    400910: "arche02 fa\xE7ade"
+    400912: BANC
+    400914: baque fleurs001
+    400916: baque fleurs002
+    400918: baque fleurs003
+    400920: baque fleurs004
+    400922: baque fleurs005
+    400924: baque fleurs006
+    400926: baque fleurs007
+    400928: baque fleurs008
+    400930: baque fleurs009
+    400932: baque fleurs010
+    400934: baque001
+    400936: baque002
+    400938: baque003
+    400940: baque004
+    400942: baque005
+    400944: BAT_302_LOD0
+    400946: BAT_302_LOD1
+    400948: BAT_302_LOD2
+    400950: BAT_303_LOD0
+    400952: BAT_303_LOD1
+    400954: BAT_303_LOD2
+    400956: BAT_357_LOD0
+    400958: BAT_357_LOD1
+    400960: BAT_357_LOD2
+    400962: BAT_358_LOD0
+    400964: BAT_358_LOD1
+    400966: BAT_358_LOD2
+    400968: BAT_82_LOD0
+    400970: BAT_82_LOD1
+    400972: BAT_82_LOD2
+    400974: BAT_87_LOD0
+    400976: BAT_87_LOD1
+    400978: BAT_87_LOD2
+    400980: BAT_88/89_ESCALIER_LOD0
+    400982: BAT_88/89_ESCALIER_LOD1
+    400984: BAT_88/89_ESCALIER_LOD2
+    400986: BAT_88/89_LOD0
+    400988: BAT_88/89_LOD1
+    400990: BAT_88/89_LOD2
+    400992: BAT_90_LOD0
+    400994: BAT_90_LOD1
+    400996: BAT_90_LOD2
+    400998: BAT_90_PORCHE_LOD0
+    401000: BAT_90_PORCHE_LOD1
+    401002: BAT_90_PORCHE_LOD2
+    401004: BAT_91/92_LOD0
+    401006: BAT_91/92_LOD1
+    401008: BAT_91/92_LOD2
+    401010: BAT_GARDE_CORPS_77
+    401012: BAT_GOUTTIERE_002
+    401014: BAT_GOUTTIERE_01
+    401016: BAT_REBORD_TOIT_01
+    401018: BAT_REBORD_TOIT_02
+    401020: BAT_REBORD_TOIT_03
+    401022: BAT_REBORD_TOIT_04
+    401024: BAT_REBORD_TOIT_05
+    401026: BAT_REBORD_TOIT_06
+    401028: Block:N
+    401030: Block:N 1
+    401032: //RootNode
+    401034: Box001
+    401036: Box002
+    401038: Box003
+    401040: Box004
+    401042: Box005
+    401044: Box008
+    401046: Box009
+    401048: Box010
+    401050: Box011
+    401052: Box012
+    401054: Box013
+    401056: Box014
+    401058: Box015
+    401060: Box016
+    401062: Box017
+    401064: Box018
+    401066: Box019
+    401068: Box020
+    401070: Box021
+    401072: Box022
+    401074: Box023
+    401076: Box024
+    401078: Box025
+    401080: Box026
+    401082: Box027
+    401084: Box028
+    401086: Box029
+    401088: Box030
+    401090: Box034
+    401092: Box035
+    401094: Box036
+    401096: Box037
+    401098: Box038
+    401100: Box039
+    401102: Box040
+    401104: Box041
+    401106: Box042
+    401108: Box043
+    401110: Box044
+    401112: Box045
+    401114: Box046
+    401116: Box047
+    401118: Box062
+    401120: Box098
+    401122: Box099
+    401124: Box100
+    401126: Box101
+    401128: Box103
+    401130: Box122
+    401132: Box123
+    401134: Box124
+    401136: Box125
+    401138: Box126
+    401140: Box127
+    401142: Box128
+    401144: Box129
+    401146: Box130
+    401148: Box131
+    401150: Box132
+    401152: Box133
+    401154: Box134
+    401156: Box135
+    401158: Box136
+    401160: Box137
+    401162: Circle008
+    401164: Circle009
+    401166: Circle010
+    401168: Circle011
+    401170: Circle012
+    401172: Circle013
+    401174: Circle014
+    401176: Circle015
+    401178: Circle016
+    401180: Circle017
+    401182: Circle018
+    401184: Circle019
+    401186: Circle020
+    401188: Circle021
+    401190: Circle022
+    401192: Circle023
+    401194: Circle024
+    401196: Circle025
+    401198: Circle026
+    401200: Circle027
+    401202: Circle028
+    401204: Circle029
+    401206: Circle030
+    401208: Circle031
+    401210: Circle033
+    401212: Circle034
+    401214: Circle035
+    401216: Circle037
+    401218: Cylinder018
+    401220: Cylinder030
+    401222: Cylinder031
+    401224: Cylinder032
+    401226: Cylinder033
+    401228: Cylinder034
+    401230: Cylinder035
+    401232: Cylinder036
+    401234: Cylinder037
+    401236: Cylinder038
+    401238: EGLISE
+    401240: EGLISE 1
+    401242: Ensemble lampadaire005
+    401244: Ensemble lampadaire006
+    401246: "g\xE9ranium"
+    401248: lampadaire
+    401250: Lampadaire 003
+    401252: Lampadaire 006
+    401254: Lampadaire 009
+    401256: Lampadaire 011
+    401258: lampadaire002
+    401260: lampadaire005
+    401262: lampadaire008
+    401264: lampadaire010
+    401266: Line007
+    401268: Line008
+    401270: Line009
+    401272: Line010
+    401274: Line011
+    401276: Line011 1
+    401278: Line012
+    401280: Line013
+    401282: Line014
+    401284: Line015
+    401286: Line015 1
+    401288: Line016
+    401290: Line017
+    401292: Line017 1
+    401294: Line018
+    401296: Line019
+    401298: Line020
+    401300: Line021
+    401302: Line022
+    401304: Line023
+    401306: Line025
+    401308: Line026
+    401310: Line027
+    401312: Line028
+    401314: Line028 1
+    401316: Line029
+    401318: Line029 1
+    401320: Line030
+    401322: Line031
+    401324: Line032
+    401326: Line033
+    401328: Line034
+    401330: Line035
+    401332: Line036
+    401334: Line036 1
+    401336: Line037
+    401338: Line038
+    401340: Line039
+    401342: Line040
+    401344: Line041
+    401346: Line042
+    401348: Line043
+    401350: Line044
+    401352: Line045
+    401354: Line046
+    401356: Line047
+    401358: Line048
+    401360: Line049
+    401362: Line050
+    401364: Line051
+    401366: Line052
+    401368: Line053
+    401370: Line054
+    401372: Line055
+    401374: Line056
+    401376: Line057
+    401378: Line058
+    401380: Line059
+    401382: Line060
+    401384: Line061
+    401386: Line062
+    401388: Line063
+    401390: Line064
+    401392: Line065
+    401394: Line066
+    401396: Line067
+    401398: Line068
+    401400: Line077
+    401402: Line078
+    401404: obj_019
+    401406: obj_020
+    401408: obj_021
+    401410: obj_022
+    401412: obj_023
+    401414: obj_024
+    401416: obj_025
+    401418: obj_026
+    401420: obj_043
+    401422: obj_044
+    401424: obj_045
+    401426: obj_046
+    401428: obj_047
+    401430: obj_048
+    401432: obj_049
+    401434: obj_050
+    401436: obj_067
+    401438: obj_068
+    401440: obj_069
+    401442: obj_070
+    401444: obj_071
+    401446: obj_072
+    401448: obj_073
+    401450: obj_074
+    401452: obj_083
+    401454: obj_084
+    401456: obj_085
+    401458: obj_086
+    401460: obj_087
+    401462: obj_088
+    401464: obj_089
+    401466: Object
+    401468: Object005
+    401470: Object006
+    401472: Object007
+    401474: Object010
+    401476: Object012
+    401478: Object013
+    401480: Object014
+    401482: Object020
+    401484: Object023
+    401486: Object113
+    401488: Object151
+    401490: Object152
+    401492: Objet02
+    401494: Plan02
+    401496: planche banc001
+    401498: planche banc002
+    401500: planche banc003
+    401502: planche banc004
+    401504: planche banc005
+    401506: Plane003
+    401508: Plane003 1
+    401510: Plane004
+    401512: Plane005
+    401514: Plane006
+    401516: Plane006 1
+    401518: Plane007
+    401520: Plane010
+    401522: Plane010 1
+    401524: Plane017
+    401526: Plane018
+    401528: Plane019
+    401530: Plane021
+    401532: Plane025
+    401534: Plane026
+    401536: Plane027
+    401538: Plane028
+    401540: Plane030
+    401542: Plane031
+    401544: Plane033
+    401546: Plane034
+    401548: Plane035
+    401550: Plane036
+    401552: Plane037
+    401554: Plane038
+    401556: Plane039
+    401558: Plane040
+    401560: Plane041
+    401562: Plane042
+    401564: Plane043
+    401566: Plane044
+    401568: Plane047
+    401570: Plane053
+    401572: Plane054
+    401574: Plane055
+    401576: Plane057
+    401578: Plane_TERRAIN
+    401580: POIGNET_PORTE
+    401582: Sphere003
+    401584: Sphere004
+    401586: Sphere005
+    401588: Sphere006
+    401590: Sphere007
+    401592: Sphere008
+    401594: Sphere009
+    401596: virail004
+    401598: Vitrage petite fenetre001
+    401600: VRayProxy_objArch31_056_obj_00
+    401602: VRayProxy_objArch31_056_obj_01
+    401604: VRayProxy_objArch31_056_obj_02
+    401606: VRayProxy_objArch31_056_obj_03
+    401608: zer006
+    2300000: '* Vitrail ST PIERRE'
+    2300002: '*Futur vitrail'
+    2300004: '*Futur vitrail001'
+    2300006: '*VITRAIL ST JEAN'
+    2300008: '*vITRAIL st jesus christ '
+    2300010: '*Vitrail ST LUC'
+    2300012: '*vITRAIL st MARC'
+    2300014: '*Vitrail ST Mathieu '
+    2300016: '*Vitrail ST PAUL'
+    2300018: 100
+    2300020: 101
+    2300022: 102
+    2300024: 103
+    2300026: 103-attache volet005
+    2300028: 103-attache volet006
+    2300030: 103-attache volet007
+    2300032: 103-attache volet008
+    2300034: 103-attache volet009
+    2300036: 103-attache volet010
+    2300038: 103-attache volet012
+    2300040: 103-attache volet013
+    2300042: 103-attache volet014
+    2300044: 103-attache volet015
+    2300046: 103-attache volet016
+    2300048: 103-attache volet017
+    2300050: 103-attache volet018
+    2300052: 103-attache volet019
+    2300054: 103-attache volet020
+    2300056: 103-attache volet024
+    2300058: 103-attache volet026
+    2300060: 103-attache volet028
+    2300062: 103-attache volet029
+    2300064: 103-attache volet030
+    2300066: 103-attache volet031
+    2300068: 103-attache volet032
+    2300070: 103-attache volet033
+    2300072: 103-attache volet034
+    2300074: 103-attache volet035
+    2300076: 103-attache volet036
+    2300078: 103-descenteEP
+    2300080: "103-goutti\xE8re"
+    2300082: 103-persienne006
+    2300084: 103-persienne008
+    2300086: 103-persienne009
+    2300088: 103-persienne011
+    2300090: 103-persienne012
+    2300092: 103-persienne013
+    2300094: 103-persienne014
+    2300096: 103-persienne015
+    2300098: 103-persienne016
+    2300100: 103-persienne017
+    2300102: 103-persienne018
+    2300104: 103-persienne019
+    2300106: 103-persienne020
+    2300108: 103-persienne021
+    2300110: 103-persienne022
+    2300112: 103-persienne023
+    2300114: 103-persienne024
+    2300116: 103-persienne025
+    2300118: 103-persienne032
+    2300120: 103-persienne033
+    2300122: 103-persienne036
+    2300124: 103-persienne037
+    2300126: 103-persienne040
+    2300128: 103-persienne041
+    2300130: 103-persienne042
+    2300132: 103-persienne043
+    2300134: 103-persienne044
+    2300136: 103-persienne045
+    2300138: 103-persienne046
+    2300140: 103-persienne048
+    2300142: 103-persienne049
+    2300144: 103-persienne051
+    2300146: 103-persienne052
+    2300148: "103-poign\xE9e"
+    2300150: 103-toiture
+    2300152: 103-volet004
+    2300154: 103-volet006
+    2300156: 103-volet007
+    2300158: 103-volet009
+    2300160: 103-volet011
+    2300162: 103-volet012
+    2300164: 103-volet013
+    2300166: 103-volet014
+    2300168: 103-volet015
+    2300170: 103-volet016
+    2300172: 103-volet019
+    2300174: 103-volet020
+    2300176: 103-volet021
+    2300178: 103-volet022
+    2300180: 103-volet023
+    2300182: 103-volet025
+    2300184: 103-volet026
+    2300186: 103-volet027
+    2300188: "103-\xE9cusson"
+    2300190: 104 1
+    2300192: 105
+    2300194: 106
+    2300196: 107
+    2300198: 108
+    2300200: 109
+    2300202: 110
+    2300204: 111
+    2300206: 112
+    2300208: 113
+    2300210: 114
+    2300212: 115
+    2300214: 116
+    2300216: 117
+    2300218: 118
+    2300220: 119
+    2300222: 120
+    2300224: 121
+    2300226: 122
+    2300228: 123
+    2300230: 124
+    2300232: 125
+    2300234: 126
+    2300236: 127
+    2300238: 128
+    2300240: 2017_BAT_105_LOD0 1
+    2300242: 2017_BAT_105_LOD002
+    2300244: 2017_BAT_105_LOD004
+    2300246: 2017_BAT_105_LOD007
+    2300248: 2017_BAT_309_LOD0 1
+    2300250: 2017_BAT_309_LOD006
+    2300252: 2017_BAT_309_LOD1 1
+    2300254: 2017_BAT_309_LOD2 1
+    2300256: 2017_BAT_54_LOD0 1
+    2300258: 2017_BAT_54_LOD003
+    2300260: 2017_BAT_54_LOD006
+    2300262: 2017_BAT_54_LOD1 1
+    2300264: 2017_BAT_55_LOD0 1
+    2300266: 2017_BAT_55_LOD005
+    2300268: 2017_BAT_55_LOD1 1
+    2300270: 2017_BAT_55_LOD3
+    2300272: 2017_BAT_56_LOD0 1
+    2300274: 2017_BAT_56_LOD003
+    2300276: 2017_BAT_56_LOD006
+    2300278: 2017_BAT_56_LOD1 1
+    2300280: 2017_BAT_57_LOD0 1
+    2300282: 2017_BAT_57_LOD003
+    2300284: 2017_BAT_57_LOD006
+    2300286: 2017_BAT_57_LOD1 1
+    2300288: 2017_BAT_58_LOD0 1
+    2300290: 2017_BAT_58_LOD005
+    2300292: 2017_BAT_58_LOD006
+    2300294: 2017_BAT_58_LOD1 1
+    2300296: 2017_BAT_58_LOD2 1
+    2300298: 2017_BAT_59_LOD0 1
+    2300300: 2017_BAT_59_LOD002
+    2300302: 2017_BAT_59_LOD004
+    2300304: 2017_BAT_59_LOD006
+    2300306: 2017_BAT_59_LOD007
+    2300308: 2017_BAT_60_LOD0 1
+    2300310: 2017_BAT_60_LOD002
+    2300312: 2017_BAT_60_LOD004
+    2300314: 2017_BAT_60_LOD006
+    2300316: 2017_BAT_61_LOD0 1
+    2300318: 2017_BAT_61_LOD002
+    2300320: 2017_BAT_61_LOD004
+    2300322: 2017_BAT_61_LOD006
+    2300324: 2017_BAT_61_LOD007
+    2300326: 2017_BAT_62_LOD0 1
+    2300328: 2017_BAT_62_LOD1 1
+    2300330: 2017_BAT_62_LOD2
+    2300332: 2017_BAT_65_LOD0 1
+    2300334: 2017_BAT_65_LOD1 1
+    2300336: 2017_BAT_65_LOD2
+    2300338: 2017_BAT_68_LOD0 1
+    2300340: 2017_BAT_68_LOD1 1
+    2300342: 2017_BAT_68_LOD2
+    2300344: 2017_BAT_69_LOD0 1
+    2300346: 2017_BAT_69_LOD1 1
+    2300348: 2017_BAT_69_LOD2
+    2300350: 2017_BAT_70_LOD0 1
+    2300352: 2017_BAT_70_LOD1 1
+    2300354: 2017_BAT_70_LOD2
+    2300356: 2017_BAT_75_LOD0 1
+    2300358: 2017_BAT_75_LOD1 1
+    2300360: 2017_BAT_75_LOD2
+    2300362: 2017_BAT_76_LOD0 1
+    2300364: 2017_BAT_76_LOD1 1
+    2300366: 2017_BAT_76_LOD2
+    2300368: 2017_BAT_77_LOD0 1
+    2300370: 2017_BAT_77_LOD1 1
+    2300372: 2017_BAT_77_LOD2
+    2300374: 2017_BAT_80_LOD0 1
+    2300376: 2017_BAT_80_LOD002
+    2300378: 2017_BAT_80_LOD006
+    2300380: 2017_BAT_80_LOD2 1
+    2300382: 2017_BAT_81_LOD0 1
+    2300384: 2017_BAT_81_LOD001 1
+    2300386: 2017_BAT_81_LOD006
+    2300388: 2017_BAT_81_LOD2 1
+    2300390: 2017_BAT_SOL 1
+    2300392: 310
+    2300394: 310-descenteEP
+    2300396: "310-goutti\xE8re"
+    2300398: "310-poign\xE9e"
+    2300400: 310-toiture 1
+    2300402: 359
+    2300404: 360
+    2300406: 71
+    2300408: 72
+    2300410: 73
+    2300412: 74
+    2300414: 84
+    2300416: 84-boite aux lettres
+    2300418: 84-descenteEP
+    2300420: 84-escalier
+    2300422: 84-garde corps
+    2300424: "84-goutti\xE8re"
+    2300426: "84-poign\xE9e"
+    2300428: 84-toiture
+    2300430: 85
+    2300432: 85-descenteEP
+    2300434: 85-garde corps
+    2300436: 85-garde corps001
+    2300438: 85-garde corps002
+    2300440: 85-garde corps003
+    2300442: 85-garde corps004
+    2300444: 85-garde corps005
+    2300446: "85-goutti\xE8re"
+    2300448: "85-poign\xE9e"
+    2300450: 85-toiture
+    2300452: 86
+    2300454: 86-boite aux lettres001
+    2300456: 86-boite aux lettres002
+    2300458: 86-boite aux lettres004
+    2300460: 86-corniche
+    2300462: 86-corniche001
+    2300464: 86-corniche002
+    2300466: 86-corniche003
+    2300468: 86-corniche004
+    2300470: 86-corniche005
+    2300472: 86-corniche006
+    2300474: 86-descenteEP
+    2300476: 86-encadrement001
+    2300478: 86-encadrement002
+    2300480: 86-escalier001
+    2300482: 86-escalier002
+    2300484: 86-ferronerie
+    2300486: 86-ferronerie003
+    2300488: 86-ferronerie004
+    2300490: 86-ferronnerie pt
+    2300492: 86-ferronnerie pt001
+    2300494: 86-ferronnerie pt002
+    2300496: 86-garde corps001 1
+    2300498: 86-garde corps002 1
+    2300500: 86-garde corps003 1
+    2300502: 86-garde corps004 1
+    2300504: 86-garde corps007 1
+    2300506: 86-garde corps010 1
+    2300508: 86-garde corps011
+    2300510: 86-garde corps014
+    2300512: 86-garde corps015
+    2300514: 86-garde corps018
+    2300516: "86-goutti\xE8re"
+    2300518: "86-poign\xE9e"
+    2300520: "86-poign\xE9e001"
+    2300522: "86-poign\xE9e002"
+    2300524: "86-poign\xE9e003"
+    2300526: 86-toiture
+    2300528: 86-volet 1
+    2300530: 86-volet001 1
+    2300532: 86-volet002 1
+    2300534: 86-volet004 1
+    2300536: 86-volet005 1
+    2300538: 86-volet007 1
+    2300540: 86-volet008 1
+    2300542: 86-volet010 1
+    2300544: 86-volet011 1
+    2300546: 86-volet013
+    2300548: 86-volet014
+    2300550: 86-volet016
+    2300552: 86-volet017
+    2300554: 86-volet019
+    2300556: 86-volet020
+    2300558: 86-volet022
+    2300560: 86-volet023
+    2300562: 86-volet025
+    2300564: 86-volet026
+    2300566: 86-volet028
+    2300568: 86-volet030
+    2300570: 86-volet031
+    2300572: 86-volet033
+    2300574: 86-volet034
+    2300576: 86-volet036
+    2300578: 86-volet037
+    2300580: 93
+    2300582: 93-descenteEP
+    2300584: "93-goutti\xE8re"
+    2300586: 93-toiture
+    2300588: 94
+    2300590: 95
+    2300592: 96
+    2300594: 97
+    2300596: 98
+    2300598: 99
+    2300600: "Arche fa\xE7ade"
+    2300602: "arche02 fa\xE7ade"
+    2300604: baque fleurs001
+    2300606: baque fleurs002
+    2300608: baque fleurs003
+    2300610: baque fleurs004
+    2300612: baque fleurs005
+    2300614: baque fleurs006
+    2300616: baque fleurs007
+    2300618: baque fleurs008
+    2300620: baque fleurs009
+    2300622: baque fleurs010
+    2300624: BAT_302_LOD0
+    2300626: BAT_302_LOD1
+    2300628: BAT_302_LOD2
+    2300630: BAT_303_LOD0
+    2300632: BAT_303_LOD1
+    2300634: BAT_303_LOD2
+    2300636: BAT_357_LOD0
+    2300638: BAT_357_LOD1
+    2300640: BAT_357_LOD2
+    2300642: BAT_358_LOD0
+    2300644: BAT_358_LOD1
+    2300646: BAT_358_LOD2
+    2300648: BAT_82_LOD0
+    2300650: BAT_82_LOD1
+    2300652: BAT_82_LOD2
+    2300654: BAT_87_LOD0
+    2300656: BAT_87_LOD1
+    2300658: BAT_87_LOD2
+    2300660: BAT_88/89_ESCALIER_LOD0
+    2300662: BAT_88/89_ESCALIER_LOD1
+    2300664: BAT_88/89_ESCALIER_LOD2
+    2300666: BAT_88/89_LOD0
+    2300668: BAT_88/89_LOD1
+    2300670: BAT_88/89_LOD2
+    2300672: BAT_90_LOD0
+    2300674: BAT_90_LOD1
+    2300676: BAT_90_LOD2
+    2300678: BAT_90_PORCHE_LOD0
+    2300680: BAT_90_PORCHE_LOD1
+    2300682: BAT_90_PORCHE_LOD2
+    2300684: BAT_91/92_LOD0
+    2300686: BAT_91/92_LOD1
+    2300688: BAT_91/92_LOD2
+    2300690: BAT_GARDE_CORPS_77
+    2300692: BAT_GOUTTIERE_002
+    2300694: BAT_GOUTTIERE_01
+    2300696: BAT_REBORD_TOIT_01
+    2300698: BAT_REBORD_TOIT_02
+    2300700: BAT_REBORD_TOIT_03
+    2300702: BAT_REBORD_TOIT_04
+    2300704: BAT_REBORD_TOIT_05
+    2300706: BAT_REBORD_TOIT_06
+    2300708: Box001
+    2300710: Box002
+    2300712: Box003
+    2300714: Box004
+    2300716: Box005
+    2300718: Box008
+    2300720: Box009
+    2300722: Box010
+    2300724: Box011
+    2300726: Box012
+    2300728: Box013
+    2300730: Box014
+    2300732: Box015
+    2300734: Box016
+    2300736: Box017
+    2300738: Box018
+    2300740: Box019
+    2300742: Box020
+    2300744: Box021
+    2300746: Box022
+    2300748: Box023
+    2300750: Box024
+    2300752: Box025
+    2300754: Box026
+    2300756: Box027
+    2300758: Box028
+    2300760: Box029
+    2300762: Box030
+    2300764: Box034
+    2300766: Box035
+    2300768: Box036
+    2300770: Box037
+    2300772: Box038
+    2300774: Box039
+    2300776: Box040
+    2300778: Box041
+    2300780: Box042
+    2300782: Box043
+    2300784: Box044
+    2300786: Box045
+    2300788: Box046
+    2300790: Box047
+    2300792: Box062
+    2300794: Box098
+    2300796: Box099
+    2300798: Box100
+    2300800: Box101
+    2300802: Box103
+    2300804: Box122
+    2300806: Box123
+    2300808: Box124
+    2300810: Box125
+    2300812: Box126
+    2300814: Box127
+    2300816: Box128
+    2300818: Box129
+    2300820: Box130
+    2300822: Box131
+    2300824: Box132
+    2300826: Box133
+    2300828: Box134
+    2300830: Box135
+    2300832: Box136
+    2300834: Box137
+    2300836: Circle008
+    2300838: Circle009
+    2300840: Circle010
+    2300842: Circle011
+    2300844: Circle012
+    2300846: Circle013
+    2300848: Circle014
+    2300850: Circle015
+    2300852: Circle016
+    2300854: Circle017
+    2300856: Circle018
+    2300858: Circle019
+    2300860: Circle020
+    2300862: Circle021
+    2300864: Circle022
+    2300866: Circle023
+    2300868: Circle024
+    2300870: Circle025
+    2300872: Circle026
+    2300874: Circle027
+    2300876: Circle028
+    2300878: Circle029
+    2300880: Circle030
+    2300882: Circle031
+    2300884: Circle033
+    2300886: Circle034
+    2300888: Circle035
+    2300890: Circle037
+    2300892: Cylinder018
+    2300894: Cylinder030
+    2300896: Cylinder031
+    2300898: Cylinder032
+    2300900: Cylinder033
+    2300902: Cylinder034
+    2300904: Cylinder035
+    2300906: Cylinder037
+    2300908: Cylinder038
+    2300910: EGLISE 1
+    2300912: lampadaire002
+    2300914: lampadaire005
+    2300916: lampadaire008
+    2300918: lampadaire010
+    2300920: Line007
+    2300922: Line008
+    2300924: Line009
+    2300926: Line010
+    2300928: Line011
+    2300930: Line011 1
+    2300932: Line012
+    2300934: Line013
+    2300936: Line014
+    2300938: Line015
+    2300940: Line015 1
+    2300942: Line017
+    2300944: Line017 1
+    2300946: Line018
+    2300948: Line019
+    2300950: Line020
+    2300952: Line021
+    2300954: Line022
+    2300956: Line023
+    2300958: Line025
+    2300960: Line026
+    2300962: Line027
+    2300964: Line028
+    2300966: Line028 1
+    2300968: Line029
+    2300970: Line029 1
+    2300972: Line030
+    2300974: Line031
+    2300976: Line032
+    2300978: Line033
+    2300980: Line034
+    2300982: Line035
+    2300984: Line036
+    2300986: Line036 1
+    2300988: Line037
+    2300990: Line038
+    2300992: Line039
+    2300994: Line040
+    2300996: Line041
+    2300998: Line042
+    2301000: Line043
+    2301002: Line044
+    2301004: Line045
+    2301006: Line046
+    2301008: Line047
+    2301010: Line048
+    2301012: Line049
+    2301014: Line050
+    2301016: Line051
+    2301018: Line052
+    2301020: Line053
+    2301022: Line054
+    2301024: Line055
+    2301026: Line056
+    2301028: Line057
+    2301030: Line058
+    2301032: Line059
+    2301034: Line060
+    2301036: Line061
+    2301038: Line062
+    2301040: Line063
+    2301042: Line064
+    2301044: Line065
+    2301046: Line066
+    2301048: Line067
+    2301050: Line068
+    2301052: Line077
+    2301054: Line078
+    2301056: obj_019
+    2301058: obj_020
+    2301060: obj_021
+    2301062: obj_022
+    2301064: obj_023
+    2301066: obj_024
+    2301068: obj_025
+    2301070: obj_026
+    2301072: obj_043
+    2301074: obj_044
+    2301076: obj_045
+    2301078: obj_046
+    2301080: obj_047
+    2301082: obj_048
+    2301084: obj_049
+    2301086: obj_050
+    2301088: obj_067
+    2301090: obj_068
+    2301092: obj_069
+    2301094: obj_070
+    2301096: obj_071
+    2301098: obj_072
+    2301100: obj_073
+    2301102: obj_074
+    2301104: obj_083
+    2301106: obj_084
+    2301108: obj_085
+    2301110: obj_086
+    2301112: obj_087
+    2301114: obj_088
+    2301116: obj_089
+    2301118: Object
+    2301120: Object006
+    2301122: Object007
+    2301124: Object010
+    2301126: Object012
+    2301128: Object013
+    2301130: Object014
+    2301132: Object020
+    2301134: Object023
+    2301136: Object113
+    2301138: Object151
+    2301140: Object152
+    2301142: Objet02
+    2301144: Plan02
+    2301146: Plane003
+    2301148: Plane003 1
+    2301150: Plane004
+    2301152: Plane005
+    2301154: Plane006
+    2301156: Plane006 1
+    2301158: Plane007
+    2301160: Plane025
+    2301162: Plane026
+    2301164: Plane027
+    2301166: Plane028
+    2301168: Plane030
+    2301170: Plane031
+    2301172: Plane033
+    2301174: Plane034
+    2301176: Plane035
+    2301178: Plane036
+    2301180: Plane037
+    2301182: Plane038
+    2301184: Plane039
+    2301186: Plane040
+    2301188: Plane041
+    2301190: Plane042
+    2301192: Plane043
+    2301194: Plane044
+    2301196: Plane047
+    2301198: Plane053
+    2301200: Plane054
+    2301202: Plane055
+    2301204: Plane057
+    2301206: Plane_TERRAIN
+    2301208: POIGNET_PORTE
+    2301210: Sphere004
+    2301212: Sphere005
+    2301214: Sphere006
+    2301216: Sphere007
+    2301218: Sphere008
+    2301220: Sphere009
+    2301222: virail004
+    2301224: Vitrage petite fenetre001
+    2301226: VRayProxy_objArch31_056_obj_00
+    2301228: VRayProxy_objArch31_056_obj_01
+    2301230: VRayProxy_objArch31_056_obj_02
+    2301232: VRayProxy_objArch31_056_obj_03
+    3300000: '* Vitrail ST PIERRE'
+    3300002: '*Futur vitrail'
+    3300004: '*Futur vitrail001'
+    3300006: '*VITRAIL ST JEAN'
+    3300008: '*vITRAIL st jesus christ '
+    3300010: '*Vitrail ST LUC'
+    3300012: '*vITRAIL st MARC'
+    3300014: '*Vitrail ST Mathieu '
+    3300016: '*Vitrail ST PAUL'
+    3300018: 100
+    3300020: 101
+    3300022: 102
+    3300024: 103
+    3300026: 103-attache volet005
+    3300028: 103-attache volet006
+    3300030: 103-attache volet007
+    3300032: 103-attache volet008
+    3300034: 103-attache volet009
+    3300036: 103-attache volet010
+    3300038: 103-attache volet012
+    3300040: 103-attache volet013
+    3300042: 103-attache volet014
+    3300044: 103-attache volet015
+    3300046: 103-attache volet016
+    3300048: 103-attache volet017
+    3300050: 103-attache volet018
+    3300052: 103-attache volet019
+    3300054: 103-attache volet020
+    3300056: 103-attache volet024
+    3300058: 103-attache volet026
+    3300060: 103-attache volet028
+    3300062: 103-attache volet029
+    3300064: 103-attache volet030
+    3300066: 103-attache volet031
+    3300068: 103-attache volet032
+    3300070: 103-attache volet033
+    3300072: 103-attache volet034
+    3300074: 103-attache volet035
+    3300076: 103-attache volet036
+    3300078: 103-descenteEP
+    3300080: "103-goutti\xE8re"
+    3300082: 103-persienne006
+    3300084: 103-persienne008
+    3300086: 103-persienne009
+    3300088: 103-persienne011
+    3300090: 103-persienne012
+    3300092: 103-persienne013
+    3300094: 103-persienne014
+    3300096: 103-persienne015
+    3300098: 103-persienne016
+    3300100: 103-persienne017
+    3300102: 103-persienne018
+    3300104: 103-persienne019
+    3300106: 103-persienne020
+    3300108: 103-persienne021
+    3300110: 103-persienne022
+    3300112: 103-persienne023
+    3300114: 103-persienne024
+    3300116: 103-persienne025
+    3300118: 103-persienne032
+    3300120: 103-persienne033
+    3300122: 103-persienne036
+    3300124: 103-persienne037
+    3300126: 103-persienne040
+    3300128: 103-persienne041
+    3300130: 103-persienne042
+    3300132: 103-persienne043
+    3300134: 103-persienne044
+    3300136: 103-persienne045
+    3300138: 103-persienne046
+    3300140: 103-persienne048
+    3300142: 103-persienne049
+    3300144: 103-persienne051
+    3300146: 103-persienne052
+    3300148: "103-poign\xE9e"
+    3300150: 103-toiture
+    3300152: 103-volet004
+    3300154: 103-volet006
+    3300156: 103-volet007
+    3300158: 103-volet009
+    3300160: 103-volet011
+    3300162: 103-volet012
+    3300164: 103-volet013
+    3300166: 103-volet014
+    3300168: 103-volet015
+    3300170: 103-volet016
+    3300172: 103-volet019
+    3300174: 103-volet020
+    3300176: 103-volet021
+    3300178: 103-volet022
+    3300180: 103-volet023
+    3300182: 103-volet025
+    3300184: 103-volet026
+    3300186: 103-volet027
+    3300188: "103-\xE9cusson"
+    3300190: 104 1
+    3300192: 105
+    3300194: 106
+    3300196: 107
+    3300198: 108
+    3300200: 109
+    3300202: 110
+    3300204: 111
+    3300206: 112
+    3300208: 113
+    3300210: 114
+    3300212: 115
+    3300214: 116
+    3300216: 117
+    3300218: 118
+    3300220: 119
+    3300222: 120
+    3300224: 121
+    3300226: 122
+    3300228: 123
+    3300230: 124
+    3300232: 125
+    3300234: 126
+    3300236: 127
+    3300238: 128
+    3300240: 2017_BAT_105_LOD0 1
+    3300242: 2017_BAT_105_LOD002
+    3300244: 2017_BAT_105_LOD004
+    3300246: 2017_BAT_105_LOD007
+    3300248: 2017_BAT_309_LOD0 1
+    3300250: 2017_BAT_309_LOD006
+    3300252: 2017_BAT_309_LOD1 1
+    3300254: 2017_BAT_309_LOD2 1
+    3300256: 2017_BAT_54_LOD0 1
+    3300258: 2017_BAT_54_LOD003
+    3300260: 2017_BAT_54_LOD006
+    3300262: 2017_BAT_54_LOD1 1
+    3300264: 2017_BAT_55_LOD0 1
+    3300266: 2017_BAT_55_LOD005
+    3300268: 2017_BAT_55_LOD1 1
+    3300270: 2017_BAT_55_LOD3
+    3300272: 2017_BAT_56_LOD0 1
+    3300274: 2017_BAT_56_LOD003
+    3300276: 2017_BAT_56_LOD006
+    3300278: 2017_BAT_56_LOD1 1
+    3300280: 2017_BAT_57_LOD0 1
+    3300282: 2017_BAT_57_LOD003
+    3300284: 2017_BAT_57_LOD006
+    3300286: 2017_BAT_57_LOD1 1
+    3300288: 2017_BAT_58_LOD0 1
+    3300290: 2017_BAT_58_LOD005
+    3300292: 2017_BAT_58_LOD006
+    3300294: 2017_BAT_58_LOD1 1
+    3300296: 2017_BAT_58_LOD2 1
+    3300298: 2017_BAT_59_LOD0 1
+    3300300: 2017_BAT_59_LOD002
+    3300302: 2017_BAT_59_LOD004
+    3300304: 2017_BAT_59_LOD006
+    3300306: 2017_BAT_59_LOD007
+    3300308: 2017_BAT_60_LOD0 1
+    3300310: 2017_BAT_60_LOD002
+    3300312: 2017_BAT_60_LOD004
+    3300314: 2017_BAT_60_LOD006
+    3300316: 2017_BAT_61_LOD0 1
+    3300318: 2017_BAT_61_LOD002
+    3300320: 2017_BAT_61_LOD004
+    3300322: 2017_BAT_61_LOD006
+    3300324: 2017_BAT_61_LOD007
+    3300326: 2017_BAT_62_LOD0 1
+    3300328: 2017_BAT_62_LOD1 1
+    3300330: 2017_BAT_62_LOD2
+    3300332: 2017_BAT_65_LOD0 1
+    3300334: 2017_BAT_65_LOD1 1
+    3300336: 2017_BAT_65_LOD2
+    3300338: 2017_BAT_68_LOD0 1
+    3300340: 2017_BAT_68_LOD1 1
+    3300342: 2017_BAT_68_LOD2
+    3300344: 2017_BAT_69_LOD0 1
+    3300346: 2017_BAT_69_LOD1 1
+    3300348: 2017_BAT_69_LOD2
+    3300350: 2017_BAT_70_LOD0 1
+    3300352: 2017_BAT_70_LOD1 1
+    3300354: 2017_BAT_70_LOD2
+    3300356: 2017_BAT_75_LOD0 1
+    3300358: 2017_BAT_75_LOD1 1
+    3300360: 2017_BAT_75_LOD2
+    3300362: 2017_BAT_76_LOD0 1
+    3300364: 2017_BAT_76_LOD1 1
+    3300366: 2017_BAT_76_LOD2
+    3300368: 2017_BAT_77_LOD0 1
+    3300370: 2017_BAT_77_LOD1 1
+    3300372: 2017_BAT_77_LOD2
+    3300374: 2017_BAT_80_LOD0 1
+    3300376: 2017_BAT_80_LOD002
+    3300378: 2017_BAT_80_LOD006
+    3300380: 2017_BAT_80_LOD2 1
+    3300382: 2017_BAT_81_LOD0 1
+    3300384: 2017_BAT_81_LOD001 1
+    3300386: 2017_BAT_81_LOD006
+    3300388: 2017_BAT_81_LOD2 1
+    3300390: 2017_BAT_SOL 1
+    3300392: 310
+    3300394: 310-descenteEP
+    3300396: "310-goutti\xE8re"
+    3300398: "310-poign\xE9e"
+    3300400: 310-toiture 1
+    3300402: 359
+    3300404: 360
+    3300406: 71
+    3300408: 72
+    3300410: 73
+    3300412: 74
+    3300414: 84
+    3300416: 84-boite aux lettres
+    3300418: 84-descenteEP
+    3300420: 84-escalier
+    3300422: 84-garde corps
+    3300424: "84-goutti\xE8re"
+    3300426: "84-poign\xE9e"
+    3300428: 84-toiture
+    3300430: 85
+    3300432: 85-descenteEP
+    3300434: 85-garde corps
+    3300436: 85-garde corps001
+    3300438: 85-garde corps002
+    3300440: 85-garde corps003
+    3300442: 85-garde corps004
+    3300444: 85-garde corps005
+    3300446: "85-goutti\xE8re"
+    3300448: "85-poign\xE9e"
+    3300450: 85-toiture
+    3300452: 86
+    3300454: 86-boite aux lettres001
+    3300456: 86-boite aux lettres002
+    3300458: 86-boite aux lettres004
+    3300460: 86-corniche
+    3300462: 86-corniche001
+    3300464: 86-corniche002
+    3300466: 86-corniche003
+    3300468: 86-corniche004
+    3300470: 86-corniche005
+    3300472: 86-corniche006
+    3300474: 86-descenteEP
+    3300476: 86-encadrement001
+    3300478: 86-encadrement002
+    3300480: 86-escalier001
+    3300482: 86-escalier002
+    3300484: 86-ferronerie
+    3300486: 86-ferronerie003
+    3300488: 86-ferronerie004
+    3300490: 86-ferronnerie pt
+    3300492: 86-ferronnerie pt001
+    3300494: 86-ferronnerie pt002
+    3300496: 86-garde corps001 1
+    3300498: 86-garde corps002 1
+    3300500: 86-garde corps003 1
+    3300502: 86-garde corps004 1
+    3300504: 86-garde corps007 1
+    3300506: 86-garde corps010 1
+    3300508: 86-garde corps011
+    3300510: 86-garde corps014
+    3300512: 86-garde corps015
+    3300514: 86-garde corps018
+    3300516: "86-goutti\xE8re"
+    3300518: "86-poign\xE9e"
+    3300520: "86-poign\xE9e001"
+    3300522: "86-poign\xE9e002"
+    3300524: "86-poign\xE9e003"
+    3300526: 86-toiture
+    3300528: 86-volet 1
+    3300530: 86-volet001 1
+    3300532: 86-volet002 1
+    3300534: 86-volet004 1
+    3300536: 86-volet005 1
+    3300538: 86-volet007 1
+    3300540: 86-volet008 1
+    3300542: 86-volet010 1
+    3300544: 86-volet011 1
+    3300546: 86-volet013
+    3300548: 86-volet014
+    3300550: 86-volet016
+    3300552: 86-volet017
+    3300554: 86-volet019
+    3300556: 86-volet020
+    3300558: 86-volet022
+    3300560: 86-volet023
+    3300562: 86-volet025
+    3300564: 86-volet026
+    3300566: 86-volet028
+    3300568: 86-volet030
+    3300570: 86-volet031
+    3300572: 86-volet033
+    3300574: 86-volet034
+    3300576: 86-volet036
+    3300578: 86-volet037
+    3300580: 93
+    3300582: 93-descenteEP
+    3300584: "93-goutti\xE8re"
+    3300586: 93-toiture
+    3300588: 94
+    3300590: 95
+    3300592: 96
+    3300594: 97
+    3300596: 98
+    3300598: 99
+    3300600: "Arche fa\xE7ade"
+    3300602: "arche02 fa\xE7ade"
+    3300604: baque fleurs001
+    3300606: baque fleurs002
+    3300608: baque fleurs003
+    3300610: baque fleurs004
+    3300612: baque fleurs005
+    3300614: baque fleurs006
+    3300616: baque fleurs007
+    3300618: baque fleurs008
+    3300620: baque fleurs009
+    3300622: baque fleurs010
+    3300624: BAT_302_LOD0
+    3300626: BAT_302_LOD1
+    3300628: BAT_302_LOD2
+    3300630: BAT_303_LOD0
+    3300632: BAT_303_LOD1
+    3300634: BAT_303_LOD2
+    3300636: BAT_357_LOD0
+    3300638: BAT_357_LOD1
+    3300640: BAT_357_LOD2
+    3300642: BAT_358_LOD0
+    3300644: BAT_358_LOD1
+    3300646: BAT_358_LOD2
+    3300648: BAT_82_LOD0
+    3300650: BAT_82_LOD1
+    3300652: BAT_82_LOD2
+    3300654: BAT_87_LOD0
+    3300656: BAT_87_LOD1
+    3300658: BAT_87_LOD2
+    3300660: BAT_88/89_ESCALIER_LOD0
+    3300662: BAT_88/89_ESCALIER_LOD1
+    3300664: BAT_88/89_ESCALIER_LOD2
+    3300666: BAT_88/89_LOD0
+    3300668: BAT_88/89_LOD1
+    3300670: BAT_88/89_LOD2
+    3300672: BAT_90_LOD0
+    3300674: BAT_90_LOD1
+    3300676: BAT_90_LOD2
+    3300678: BAT_90_PORCHE_LOD0
+    3300680: BAT_90_PORCHE_LOD1
+    3300682: BAT_90_PORCHE_LOD2
+    3300684: BAT_91/92_LOD0
+    3300686: BAT_91/92_LOD1
+    3300688: BAT_91/92_LOD2
+    3300690: BAT_GARDE_CORPS_77
+    3300692: BAT_GOUTTIERE_002
+    3300694: BAT_GOUTTIERE_01
+    3300696: BAT_REBORD_TOIT_01
+    3300698: BAT_REBORD_TOIT_02
+    3300700: BAT_REBORD_TOIT_03
+    3300702: BAT_REBORD_TOIT_04
+    3300704: BAT_REBORD_TOIT_05
+    3300706: BAT_REBORD_TOIT_06
+    3300708: Box001
+    3300710: Box002
+    3300712: Box003
+    3300714: Box004
+    3300716: Box005
+    3300718: Box008
+    3300720: Box009
+    3300722: Box010
+    3300724: Box011
+    3300726: Box012
+    3300728: Box013
+    3300730: Box014
+    3300732: Box015
+    3300734: Box016
+    3300736: Box017
+    3300738: Box018
+    3300740: Box019
+    3300742: Box020
+    3300744: Box021
+    3300746: Box022
+    3300748: Box023
+    3300750: Box024
+    3300752: Box025
+    3300754: Box026
+    3300756: Box027
+    3300758: Box028
+    3300760: Box029
+    3300762: Box030
+    3300764: Box034
+    3300766: Box035
+    3300768: Box036
+    3300770: Box037
+    3300772: Box038
+    3300774: Box039
+    3300776: Box040
+    3300778: Box041
+    3300780: Box042
+    3300782: Box043
+    3300784: Box044
+    3300786: Box045
+    3300788: Box046
+    3300790: Box047
+    3300792: Box062
+    3300794: Box098
+    3300796: Box099
+    3300798: Box100
+    3300800: Box101
+    3300802: Box103
+    3300804: Box122
+    3300806: Box123
+    3300808: Box124
+    3300810: Box125
+    3300812: Box126
+    3300814: Box127
+    3300816: Box128
+    3300818: Box129
+    3300820: Box130
+    3300822: Box131
+    3300824: Box132
+    3300826: Box133
+    3300828: Box134
+    3300830: Box135
+    3300832: Box136
+    3300834: Box137
+    3300836: Circle008
+    3300838: Circle009
+    3300840: Circle010
+    3300842: Circle011
+    3300844: Circle012
+    3300846: Circle013
+    3300848: Circle014
+    3300850: Circle015
+    3300852: Circle016
+    3300854: Circle017
+    3300856: Circle018
+    3300858: Circle019
+    3300860: Circle020
+    3300862: Circle021
+    3300864: Circle022
+    3300866: Circle023
+    3300868: Circle024
+    3300870: Circle025
+    3300872: Circle026
+    3300874: Circle027
+    3300876: Circle028
+    3300878: Circle029
+    3300880: Circle030
+    3300882: Circle031
+    3300884: Circle033
+    3300886: Circle034
+    3300888: Circle035
+    3300890: Circle037
+    3300892: Cylinder018
+    3300894: Cylinder030
+    3300896: Cylinder031
+    3300898: Cylinder032
+    3300900: Cylinder033
+    3300902: Cylinder034
+    3300904: Cylinder035
+    3300906: Cylinder037
+    3300908: Cylinder038
+    3300910: EGLISE 1
+    3300912: lampadaire002
+    3300914: lampadaire005
+    3300916: lampadaire008
+    3300918: lampadaire010
+    3300920: Line007
+    3300922: Line008
+    3300924: Line009
+    3300926: Line010
+    3300928: Line011
+    3300930: Line011 1
+    3300932: Line012
+    3300934: Line013
+    3300936: Line014
+    3300938: Line015
+    3300940: Line015 1
+    3300942: Line017
+    3300944: Line017 1
+    3300946: Line018
+    3300948: Line019
+    3300950: Line020
+    3300952: Line021
+    3300954: Line022
+    3300956: Line023
+    3300958: Line025
+    3300960: Line026
+    3300962: Line027
+    3300964: Line028
+    3300966: Line028 1
+    3300968: Line029
+    3300970: Line029 1
+    3300972: Line030
+    3300974: Line031
+    3300976: Line032
+    3300978: Line033
+    3300980: Line034
+    3300982: Line035
+    3300984: Line036
+    3300986: Line036 1
+    3300988: Line037
+    3300990: Line038
+    3300992: Line039
+    3300994: Line040
+    3300996: Line041
+    3300998: Line042
+    3301000: Line043
+    3301002: Line044
+    3301004: Line045
+    3301006: Line046
+    3301008: Line047
+    3301010: Line048
+    3301012: Line049
+    3301014: Line050
+    3301016: Line051
+    3301018: Line052
+    3301020: Line053
+    3301022: Line054
+    3301024: Line055
+    3301026: Line056
+    3301028: Line057
+    3301030: Line058
+    3301032: Line059
+    3301034: Line060
+    3301036: Line061
+    3301038: Line062
+    3301040: Line063
+    3301042: Line064
+    3301044: Line065
+    3301046: Line066
+    3301048: Line067
+    3301050: Line068
+    3301052: Line077
+    3301054: Line078
+    3301056: obj_019
+    3301058: obj_020
+    3301060: obj_021
+    3301062: obj_022
+    3301064: obj_023
+    3301066: obj_024
+    3301068: obj_025
+    3301070: obj_026
+    3301072: obj_043
+    3301074: obj_044
+    3301076: obj_045
+    3301078: obj_046
+    3301080: obj_047
+    3301082: obj_048
+    3301084: obj_049
+    3301086: obj_050
+    3301088: obj_067
+    3301090: obj_068
+    3301092: obj_069
+    3301094: obj_070
+    3301096: obj_071
+    3301098: obj_072
+    3301100: obj_073
+    3301102: obj_074
+    3301104: obj_083
+    3301106: obj_084
+    3301108: obj_085
+    3301110: obj_086
+    3301112: obj_087
+    3301114: obj_088
+    3301116: obj_089
+    3301118: Object
+    3301120: Object006
+    3301122: Object007
+    3301124: Object010
+    3301126: Object012
+    3301128: Object013
+    3301130: Object014
+    3301132: Object020
+    3301134: Object023
+    3301136: Object113
+    3301138: Object151
+    3301140: Object152
+    3301142: Objet02
+    3301144: Plan02
+    3301146: Plane003
+    3301148: Plane003 1
+    3301150: Plane004
+    3301152: Plane005
+    3301154: Plane006
+    3301156: Plane006 1
+    3301158: Plane007
+    3301160: Plane025
+    3301162: Plane026
+    3301164: Plane027
+    3301166: Plane028
+    3301168: Plane030
+    3301170: Plane031
+    3301172: Plane033
+    3301174: Plane034
+    3301176: Plane035
+    3301178: Plane036
+    3301180: Plane037
+    3301182: Plane038
+    3301184: Plane039
+    3301186: Plane040
+    3301188: Plane041
+    3301190: Plane042
+    3301192: Plane043
+    3301194: Plane044
+    3301196: Plane047
+    3301198: Plane053
+    3301200: Plane054
+    3301202: Plane055
+    3301204: Plane057
+    3301206: Plane_TERRAIN
+    3301208: POIGNET_PORTE
+    3301210: Sphere004
+    3301212: Sphere005
+    3301214: Sphere006
+    3301216: Sphere007
+    3301218: Sphere008
+    3301220: Sphere009
+    3301222: virail004
+    3301224: Vitrage petite fenetre001
+    3301226: VRayProxy_objArch31_056_obj_00
+    3301228: VRayProxy_objArch31_056_obj_01
+    3301230: VRayProxy_objArch31_056_obj_02
+    3301232: VRayProxy_objArch31_056_obj_03
+    4300000: 2017_BAT_77_LOD0
+    4300002: 2017_BAT_75_LOD0
+    4300004: 2017_BAT_68_LOD0
+    4300006: 2017_BAT_69_LOD0
+    4300008: 2017_BAT_70_LOD0
+    4300010: 2017_BAT_76_LOD0
+    4300012: '* Vitrail ST PIERRE'
+    4300014: '*Futur vitrail'
+    4300016: '*Futur vitrail001'
+    4300018: '*VITRAIL ST JEAN'
+    4300020: '*vITRAIL st jesus christ '
+    4300022: '*Vitrail ST LUC'
+    4300024: '*vITRAIL st MARC'
+    4300026: '*Vitrail ST Mathieu '
+    4300028: '*Vitrail ST PAUL'
+    4300030: "Arche fa\xE7ade"
+    4300032: "arche02 fa\xE7ade"
+    4300034: EGLISE
+    4300036: Line028
+    4300038: Line029
+    4300040: Object
+    4300042: Object007
+    4300044: Object020
+    4300046: Object023
+    4300048: Object113
+    4300050: Object151
+    4300052: Plane025
+    4300054: Plane026
+    4300056: Plane027
+    4300058: Plane028
+    4300060: Plane030
+    4300062: Plane031
+    4300064: Plane033
+    4300066: Plane034
+    4300068: Plane035
+    4300070: Plane036
+    4300072: Plane037
+    4300074: Plane038
+    4300076: Plane039
+    4300078: Plane040
+    4300080: Plane041
+    4300082: Plane042
+    4300084: Plane043
+    4300086: Plane044
+    4300088: Plane047
+    4300090: Plane053
+    4300092: Plane054
+    4300094: Sphere004
+    4300096: Sphere005
+    4300098: Sphere006
+    4300100: Sphere007
+    4300102: Sphere008
+    4300104: Sphere009
+    4300106: virail004
+    4300108: Vitrage petite fenetre001
+    4300110: 2017_BAT_62_LOD0
+    4300112: 2017_BAT_65_LOD0
+    4300114: 2017_BAT_70_LOD1
+    4300116: 2017_BAT_77_LOD1
+    4300118: 2017_BAT_75_LOD1
+    4300120: 2017_BAT_68_LOD1
+    4300122: 2017_BAT_69_LOD1
+    4300124: 2017_BAT_76_LOD1
+    4300126: 2017_BAT_62_LOD1
+    4300128: 2017_BAT_65_LOD1
+    4300130: BAT_GOUTTIERE_01
+    4300132: BAT_GOUTTIERE_002
+    4300134: BAT_GARDE_CORPS_77
+    4300136: BAT_REBORD_TOIT_01
+    4300138: BAT_REBORD_TOIT_02
+    4300140: BAT_REBORD_TOIT_03
+    4300142: BAT_REBORD_TOIT_04
+    4300144: BAT_REBORD_TOIT_05
+    4300146: BAT_REBORD_TOIT_06
+    4300148: POIGNET_PORTE
+    4300150: Object152
+    4300152: 2017_BAT_309_LOD0
+    4300154: 2017_BAT_80_LOD0
+    4300156: 2017_BAT_81_LOD0
+    4300158: 2017_BAT_54_LOD0
+    4300160: 2017_BAT_56_LOD0
+    4300162: 2017_BAT_57_LOD0
+    4300164: 2017_BAT_58_LOD0
+    4300166: 2017_BAT_59_LOD0
+    4300168: 2017_BAT_60_LOD0
+    4300170: 2017_BAT_61_LOD0
+    4300172: 2017_BAT_105_LOD0
+    4300174: 2017_BAT_55_LOD0
+    4300176: 2017_BAT_54_LOD1
+    4300178: 2017_BAT_55_LOD1
+    4300180: 2017_BAT_56_LOD1
+    4300182: 2017_BAT_58_LOD1
+    4300184: 2017_BAT_59_LOD002
+    4300186: 2017_BAT_60_LOD002
+    4300188: 2017_BAT_61_LOD002
+    4300190: 2017_BAT_80_LOD002
+    4300192: 2017_BAT_81_LOD001
+    4300194: 2017_BAT_105_LOD002
+    4300196: 2017_BAT_309_LOD1
+    4300198: 2017_BAT_54_LOD003
+    4300200: 2017_BAT_55_LOD3
+    4300202: 2017_BAT_56_LOD003
+    4300204: 2017_BAT_57_LOD003
+    4300206: 2017_BAT_58_LOD2
+    4300208: 2017_BAT_59_LOD004
+    4300210: 2017_BAT_60_LOD004
+    4300212: 2017_BAT_61_LOD004
+    4300214: 2017_BAT_80_LOD2
+    4300216: 2017_BAT_81_LOD2
+    4300218: 2017_BAT_105_LOD004
+    4300220: 2017_BAT_309_LOD2
+    4300222: 2017_BAT_54_LOD006
+    4300224: 2017_BAT_55_LOD005
+    4300226: 2017_BAT_56_LOD006
+    4300228: 2017_BAT_57_LOD006
+    4300230: 2017_BAT_58_LOD005
+    4300232: 2017_BAT_58_LOD006
+    4300234: 2017_BAT_59_LOD006
+    4300236: 2017_BAT_59_LOD007
+    4300238: 2017_BAT_60_LOD006
+    4300240: 2017_BAT_61_LOD006
+    4300242: 2017_BAT_61_LOD007
+    4300244: 2017_BAT_80_LOD006
+    4300246: 2017_BAT_81_LOD006
+    4300248: 2017_BAT_105_LOD007
+    4300250: 2017_BAT_309_LOD006
+    4300252: obj_083
+    4300254: lampadaire010
+    4300256: obj_084
+    4300258: obj_085
+    4300260: obj_086
+    4300262: obj_087
+    4300264: obj_088
+    4300266: obj_089
+    4300268: Plane057
+    4300270: BAT_358_LOD2
+    4300272: BAT_357_LOD2
+    4300274: BAT_303_LOD2
+    4300276: BAT_302_LOD2
+    4300278: BAT_91/92_LOD2
+    4300280: BAT_90_LOD2
+    4300282: BAT_90_PORCHE_LOD2
+    4300284: BAT_88/89_LOD2
+    4300286: BAT_88/89_ESCALIER_LOD2
+    4300288: BAT_87_LOD2
+    4300290: BAT_82_LOD2
+    4300292: BAT_358_LOD1
+    4300294: BAT_357_LOD1
+    4300296: BAT_303_LOD1
+    4300298: BAT_302_LOD1
+    4300300: BAT_91/92_LOD1
+    4300302: BAT_90_PORCHE_LOD1
+    4300304: BAT_90_LOD1
+    4300306: BAT_88/89_LOD1
+    4300308: BAT_88/89_ESCALIER_LOD1
+    4300310: BAT_87_LOD1
+    4300312: BAT_82_LOD1
+    4300314: BAT_358_LOD0
+    4300316: BAT_357_LOD0
+    4300318: BAT_303_LOD0
+    4300320: BAT_302_LOD0
+    4300322: BAT_91/92_LOD0
+    4300324: BAT_90_PORCHE_LOD0
+    4300326: BAT_90_LOD0
+    4300328: BAT_88/89_LOD0
+    4300330: BAT_88/89_ESCALIER_LOD0
+    4300332: BAT_87_LOD0
+    4300334: BAT_82_LOD0
+    4300336: 2017_BAT_57_LOD1
+    4300338: 2017_BAT_76_LOD2
+    4300340: 2017_BAT_77_LOD2
+    4300342: 2017_BAT_70_LOD2
+    4300344: 2017_BAT_69_LOD2
+    4300346: 2017_BAT_68_LOD2
+    4300348: 2017_BAT_65_LOD2
+    4300350: 2017_BAT_62_LOD2
+    4300352: 2017_BAT_75_LOD2
+    4300354: 2017_BAT_SOL
+    4300356: 94
+    4300358: 95
+    4300360: 96
+    4300362: 97
+    4300364: 98
+    4300366: 99
+    4300368: 100
+    4300370: 101
+    4300372: 102
+    4300374: 113
+    4300376: 114
+    4300378: 115
+    4300380: 116
+    4300382: 105
+    4300384: 106
+    4300386: 107
+    4300388: 109
+    4300390: 110
+    4300392: 112
+    4300394: 111
+    4300396: 108
+    4300398: 360
+    4300400: 119
+    4300402: 118
+    4300404: 120
+    4300406: 117
+    4300408: 122
+    4300410: 121
+    4300412: 359
+    4300414: 128
+    4300416: 127
+    4300418: 123
+    4300420: 124
+    4300422: 125
+    4300424: 126
+    4300426: 93
+    4300428: Line011
+    4300430: Line012
+    4300432: Line013
+    4300434: Line014
+    4300436: Line015
+    4300438: Line017
+    4300440: Line018
+    4300442: Line019
+    4300444: Line020
+    4300446: Line021
+    4300448: Line022
+    4300450: Line023
+    4300452: Line025
+    4300454: Line026
+    4300456: Line027
+    4300458: Line028
+    4300460: Line029
+    4300462: Line030
+    4300464: Line031
+    4300466: Line032
+    4300468: Line033
+    4300470: Line034
+    4300472: Line035
+    4300474: Line036
+    4300476: Line037
+    4300478: Line039
+    4300480: Line040
+    4300482: Line038
+    4300484: Line041
+    4300486: Line042
+    4300488: Line043
+    4300490: Line044
+    4300492: Line045
+    4300494: Line046
+    4300496: Line047
+    4300498: Line048
+    4300500: Line049
+    4300502: Line050
+    4300504: Line051
+    4300506: Line052
+    4300508: Line053
+    4300510: Line054
+    4300512: Line055
+    4300514: Line056
+    4300516: Line057
+    4300518: Line058
+    4300520: Line059
+    4300522: Line060
+    4300524: Line061
+    4300526: Line062
+    4300528: Line063
+    4300530: Line064
+    4300532: Line065
+    4300534: Line066
+    4300536: Line067
+    4300538: Line068
+    4300540: 103-volet004
+    4300542: 103-volet006
+    4300544: 103-attache volet005
+    4300546: 93-toiture
+    4300548: 86-corniche004
+    4300550: 86-volet001
+    4300552: 86-volet
+    4300554: 86-volet026
+    4300556: 86-volet028
+    4300558: Circle010
+    4300560: Circle009
+    4300562: Circle008
+    4300564: 86-garde corps001
+    4300566: "310-poign\xE9e"
+    4300568: 103-persienne032
+    4300570: 103-attache volet024
+    4300572: 103-persienne033
+    4300574: 103-persienne042
+    4300576: 103-persienne043
+    4300578: 103-attache volet029
+    4300580: 103-attache volet030
+    4300582: 103-persienne044
+    4300584: 85-garde corps004
+    4300586: 85-garde corps005
+    4300588: "85-goutti\xE8re"
+    4300590: "86-goutti\xE8re"
+    4300592: "93-goutti\xE8re"
+    4300594: 93-descenteEP
+    4300596: Box130
+    4300598: Box131
+    4300600: Box132
+    4300602: Box133
+    4300604: baque fleurs007
+    4300606: baque fleurs008
+    4300608: Box126
+    4300610: Box127
+    4300612: Box128
+    4300614: Box129
+    4300616: baque fleurs005
+    4300618: baque fleurs006
+    4300620: Box122
+    4300622: Box123
+    4300624: Box124
+    4300626: Box125
+    4300628: baque fleurs004
+    4300630: baque fleurs003
+    4300632: baque fleurs001
+    4300634: baque fleurs002
+    4300636: Box098
+    4300638: Box099
+    4300640: Box100
+    4300642: Box101
+    4300644: Box134
+    4300646: Box135
+    4300648: Box136
+    4300650: Box137
+    4300652: baque fleurs010
+    4300654: baque fleurs009
+    4300656: Objet02
+    4300658: Plan02
+    4300660: VRayProxy_objArch31_056_obj_00
+    4300662: VRayProxy_objArch31_056_obj_01
+    4300664: VRayProxy_objArch31_056_obj_02
+    4300666: VRayProxy_objArch31_056_obj_03
+    4300668: 104
+    4300670: Object006
+    4300672: Object010
+    4300674: Box003
+    4300676: Box004
+    4300678: Box005
+    4300680: Box010
+    4300682: Box011
+    4300684: Box012
+    4300686: Box013
+    4300688: Box014
+    4300690: Box015
+    4300692: Box016
+    4300694: Box017
+    4300696: Box018
+    4300698: Box019
+    4300700: Box020
+    4300702: Box021
+    4300704: Box022
+    4300706: Box023
+    4300708: Box024
+    4300710: Box025
+    4300712: Box026
+    4300714: Box027
+    4300716: Box028
+    4300718: Box029
+    4300720: Box030
+    4300722: Line015
+    4300724: Line017
+    4300726: Box034
+    4300728: Box035
+    4300730: Box036
+    4300732: Box037
+    4300734: Box038
+    4300736: Box039
+    4300738: Box040
+    4300740: Box041
+    4300742: Box042
+    4300744: Box043
+    4300746: Box044
+    4300748: Box045
+    4300750: Box046
+    4300752: Box047
+    4300754: Plane006
+    4300756: Box062
+    4300758: Box103
+    4300760: Line036
+    4300762: Line007
+    4300764: Plane003
+    4300766: Line009
+    4300768: Line010
+    4300770: Box002
+    4300772: Line011
+    4300774: Box001
+    4300776: Line008
+    4300778: Object013
+    4300780: Cylinder033
+    4300782: Cylinder034
+    4300784: Cylinder035
+    4300786: Object014
+    4300788: Cylinder037
+    4300790: Cylinder038
+    4300792: Cylinder031
+    4300794: Cylinder032
+    4300796: Object012
+    4300798: Cylinder030
+    4300800: Plane_TERRAIN
+    4300802: 73
+    4300804: 74
+    4300806: 72
+    4300808: 71
+    4300810: 103-persienne020
+    4300812: 103-persienne021
+    4300814: 103-attache volet018
+    4300816: 103-attache volet019
+    4300818: 103-persienne022
+    4300820: 103-persienne023
+    4300822: 310-descenteEP
+    4300824: 103-persienne036
+    4300826: 103-attache volet026
+    4300828: 103-persienne037
+    4300830: 103-persienne040
+    4300832: 103-persienne041
+    4300834: 103-attache volet028
+    4300836: 310-toiture
+    4300838: "310-goutti\xE8re"
+    4300840: 310
+    4300842: 103-attache volet020
+    4300844: 103-persienne024
+    4300846: 103-persienne025
+    4300848: lampadaire005
+    4300850: obj_043
+    4300852: obj_044
+    4300854: obj_045
+    4300856: obj_046
+    4300858: obj_047
+    4300860: obj_048
+    4300862: obj_049
+    4300864: obj_050
+    4300866: Line077
+    4300868: Line078
+    4300870: Cylinder018
+    4300872: Plane055
+    4300874: "84-poign\xE9e"
+    4300876: 103-persienne006
+    4300878: 103-persienne008
+    4300880: 103-attache volet007
+    4300882: 103-persienne009
+    4300884: 103-attache volet013
+    4300886: 103-persienne011
+    4300888: 103-persienne012
+    4300890: 103-attache volet014
+    4300892: 103-persienne013
+    4300894: 103-persienne014
+    4300896: 103-persienne015
+    4300898: 103-attache volet015
+    4300900: 103-persienne016
+    4300902: 103-persienne017
+    4300904: 103-attache volet016
+    4300906: 103-attache volet017
+    4300908: 103-persienne018
+    4300910: 103-persienne019
+    4300912: 84-boite aux lettres
+    4300914: 84-escalier
+    4300916: "84-goutti\xE8re"
+    4300918: 84-garde corps
+    4300920: 84-toiture
+    4300922: 84
+    4300924: 103-attache volet010
+    4300926: 103-volet015
+    4300928: 103-volet016
+    4300930: 85-garde corps003
+    4300932: 85-garde corps002
+    4300934: 85-garde corps001
+    4300936: 85-garde corps
+    4300938: "85-poign\xE9e"
+    4300940: 103-attache volet009
+    4300942: 103-volet013
+    4300944: 103-volet014
+    4300946: 85-toiture
+    4300948: 84-descenteEP
+    4300950: 85
+    4300952: 85-descenteEP
+    4300954: 103-volet019
+    4300956: 103-attache volet012
+    4300958: 103-volet020
+    4300960: 103-volet007
+    4300962: 103-volet009
+    4300964: 103-attache volet006
+    4300966: 103-attache volet008
+    4300968: 103-volet011
+    4300970: 103-volet012
+    4300972: 103-volet026
+    4300974: 103-attache volet036
+    4300976: 103-volet027
+    4300978: obj_019
+    4300980: obj_020
+    4300982: lampadaire002
+    4300984: obj_021
+    4300986: obj_022
+    4300988: obj_023
+    4300990: obj_024
+    4300992: obj_025
+    4300994: obj_026
+    4300996: 86-ferronnerie pt001
+    4300998: 86-corniche
+    4301000: 86-corniche001
+    4301002: 86-corniche002
+    4301004: 86-ferronnerie pt
+    4301006: 86-ferronerie004
+    4301008: 86-ferronerie003
+    4301010: 86-encadrement002
+    4301012: 86-ferronerie
+    4301014: "86-poign\xE9e"
+    4301016: "86-poign\xE9e001"
+    4301018: "86-poign\xE9e002"
+    4301020: 86-boite aux lettres002
+    4301022: 86-escalier001
+    4301024: 86-escalier002
+    4301026: 86-volet002
+    4301028: 86-volet004
+    4301030: 86-volet005
+    4301032: 86-volet007
+    4301034: 86-volet008
+    4301036: 86-volet010
+    4301038: 86-boite aux lettres004
+    4301040: 86-boite aux lettres001
+    4301042: 86-volet017
+    4301044: 86-volet019
+    4301046: 86-volet020
+    4301048: 86-volet022
+    4301050: 86-volet023
+    4301052: 86-volet025
+    4301054: 86-volet030
+    4301056: 86-volet031
+    4301058: 86-volet033
+    4301060: 86-volet034
+    4301062: 86-volet036
+    4301064: 86-volet037
+    4301066: Circle012
+    4301068: Circle013
+    4301070: Circle011
+    4301072: 86-garde corps002
+    4301074: Plane003
+    4301076: Circle014
+    4301078: Circle015
+    4301080: 86-garde corps003
+    4301082: Circle019
+    4301084: Circle016
+    4301086: Circle017
+    4301088: Circle018
+    4301090: 86-garde corps004
+    4301092: Plane004
+    4301094: 86-garde corps007
+    4301096: Circle020
+    4301098: Circle021
+    4301100: Circle022
+    4301102: Plane005
+    4301104: Circle023
+    4301106: Circle024
+    4301108: Circle025
+    4301110: 86-garde corps010
+    4301112: 86-garde corps011
+    4301114: Circle026
+    4301116: Circle027
+    4301118: Circle028
+    4301120: Plane006
+    4301122: Circle029
+    4301124: Circle030
+    4301126: Circle031
+    4301128: 86-garde corps014
+    4301130: 86-ferronnerie pt002
+    4301132: "86-poign\xE9e003"
+    4301134: 86-toiture
+    4301136: 86-corniche005
+    4301138: 86-encadrement001
+    4301140: 86-corniche006
+    4301142: 86-corniche003
+    4301144: 86
+    4301146: 86-garde corps015
+    4301148: Circle033
+    4301150: Circle034
+    4301152: Plane007
+    4301154: Circle035
+    4301156: Circle037
+    4301158: 86-garde corps018
+    4301160: 86-volet014
+    4301162: 86-volet016
+    4301164: 86-volet011
+    4301166: 86-volet013
+    4301168: 86-descenteEP
+    4301170: Box008
+    4301172: Box009
+    4301174: lampadaire008
+    4301176: obj_067
+    4301178: obj_068
+    4301180: obj_069
+    4301182: obj_070
+    4301184: obj_071
+    4301186: obj_072
+    4301188: obj_073
+    4301190: obj_074
+    4301192: "103-\xE9cusson"
+    4301194: "103-poign\xE9e"
+    4301196: 103-toiture
+    4301198: 103
+    4301200: "103-goutti\xE8re"
+    4301202: 103-descenteEP
+    4301204: 103-attache volet035
+    4301206: 103-persienne051
+    4301208: 103-persienne052
+    4301210: 103-attache volet034
+    4301212: 103-persienne048
+    4301214: 103-persienne049
+    4301216: 103-persienne045
+    4301218: 103-persienne046
+    4301220: 103-attache volet033
+    4301222: 103-volet021
+    4301224: 103-volet022
+    4301226: 103-attache volet031
+    4301228: 103-volet023
+    4301230: 103-volet025
+    4301232: 103-attache volet032
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.03125
+    - 0.015625
+    - 0.0078125
+    - 0.00390625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
